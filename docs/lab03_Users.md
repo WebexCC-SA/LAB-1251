@@ -85,7 +85,7 @@ In this lab, you will learn how to create users, assign licenses, and assign ext
 <tr>
 <td><p id="p2">there are 16 employees that require extensions for calling.</p>
 <ul>
-<li><p>Use instructor provided <a href="LAB-1251/assets/AddUsersandDevicesTemplate.xlsx">Add Users and Devices Template</a> to modify the csv template file or manually create users based on
+<li><p>Use instructor provided <a href="assets/AddUsersandDevicesTemplate.xlsx">Add Users and Devices Template</a> to modify the csv template file or manually create users based on
 tables below. Keep in mind that existing users also need Webex Calling professional license as well as location and extension settings.</p>
 <ul>
 <li><p>YourFullName = Your first and last name</p></li>
