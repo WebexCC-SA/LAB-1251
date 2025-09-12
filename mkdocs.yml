@@ -88,16 +88,25 @@ nav:
   - Home: index.md
   - Lab:
       - Overview: overview.md
-      - Lab 1 - Getting Started: lab1_getting_started.md
+      - Lab 1 - Organization Settings: lab01_OrganizationSettings.md
+      - Lab 2 - Location Settings: lab02_LocationSettings.md
+      - Lab 3 - Users: lab03_Users.md
+      - Lab 4 - Devices: lab04_Devices.md
+      - Lab 5 - Workspaces: lab05_Workspaces.md
+      - Lab 6 - Virtual and Shared Lines: lab06_VirtualLines.md
+      - Lab 7 - Calling Features: lab07_CallingFeatures.md
+      - Lab 8 - Call Queues: lab08_CallQueues.md
+      - Lab 9 - User Features: lab09_AdmCtrlUserFeatures.md
+      - Lab 10 - User Hub: lab10_UserHub.md
       - Conclusion: conclusion.md
-  - Topologies: topologies.md
-  - How to use this guide:
-      - Setting up and using the tool:
-        - Initial Setup: howToUse/initialSetup.md
-        - Using the tool after the initial setup: howToUse/postInitial.md
-        - Publishing your changes: howToUse/syncChanges.md
-      - Styling and Advanced Features:
-        - Markdown and Other References: howToUse/references.md
-        - Custom Features: howToUse/customFeatures.md
-        - Custom Admonitions: howToUse/admonition.md
+ # - Topologies: topologies.md
+ # - How to use this guide:
+ #     - Setting up and using the tool:
+ #       - Initial Setup: howToUse/initialSetup.md
+ #       - Using the tool after the initial setup: howToUse/postInitial.md
+ #       - Publishing your changes: howToUse/syncChanges.md
+ #     - Styling and Advanced Features:
+ #       - Markdown and Other References: howToUse/references.md
+ #       - Custom Features: howToUse/customFeatures.md
+ #       - Custom Admonitions: howToUse/admonition.md
  
