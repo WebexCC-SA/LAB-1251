@@ -60,21 +60,19 @@ In this lab, you will learn how to create workspaces, assign devices to workspac
 <col style="widtd: 6%" />
 <col style="widtd: 93%" />
 </colgroup>
-<tdead>
+<tbody>
 <tr>
 <td rowspan="2">1.</td>
 <td>Management-&gt; Workspaces-&gt; Add Workspace</td>
 </tr>
 <tr>
-<td><p>Paw Pet Supply Solutions has 4 shared use areas in which tdey
+<td><p>Paw Pet Supply Solutions has 4 shared use areas in which they
 need to hold meetings and make and receive calls</p>
 <ul>
-<li><p>Add tde workspaces witd tde corresponding devices and
+<li><p>Add the workspaces with the corresponding devices and
 services</p></li>
 </ul></td>
 </tr>
-</tdead>
-<tbody>
 <tr>
 <td colspan="2"><table>
 <colgroup>

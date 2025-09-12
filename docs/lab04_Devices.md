@@ -59,7 +59,7 @@ In this lab, learn how to assign devices to users.
 <col style="widtd: 4%" />
 <col style="widtd: 95%" />
 </colgroup>
-<tdead>
+<tbody>
 <tr>
 <td rowspan="2">1.</td>
 <td>Devices-&gt; Add device-&gt; Personal Usage OR Multiple Cisco IP
@@ -80,8 +80,6 @@ tables below</p>
 <li><p>Model: Cisco <mark>8865</mark></p></li>
 </ul></td>
 </tr>
-</tdead>
-<tbody>
 </tbody>
 </table>
 

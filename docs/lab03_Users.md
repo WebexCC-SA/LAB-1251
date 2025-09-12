@@ -59,7 +59,9 @@ In this lab, you will learn how to create users, assign licenses, and assign ext
 <col style="width: 4%" />
 <col style="width: 95%" />
 </colgroup>
-<td>
+<tbody>
+
+
 <tr>
 <td rowspan="2"><p id="p1">1.</p></td>
 <td><p id="p1">Management-&gt; Users-&gt; select Anita Perez</p></td>
@@ -74,17 +76,17 @@ In this lab, you will learn how to create users, assign licenses, and assign ext
 <li><p>Extension: 101</p></li>
 </ul></td>
 </tr>
-</td>
-<tbody>
+
+
 <tr>
 <td rowspan="2"><p id="p1">2.</p></td>
-<td><p id="p1">Management-&gt; Users-&gt; Add users dropdown -&gt; Manage users by CSV</p></td>
+<td><p id="p1">Management-&gt; Users-&gt; Add users OR Add users dropdown -&gt; Manage users by CSV</p></td>
 </tr>
 <tr>
 <td><p id="p2">there are 16 employees that require extensions for calling.</p>
 <ul>
-<li><p>Use instructor provided Add Users and Devices Template file or
-tables below</p>
+<li><p>Use instructor provided <a href="/assets/AddUsersandDevicesTemplate.xlsx">Add Users and Devices Template</a> to modify the csv template file or manually create users based on
+tables below. Keep in mind that existing users also need Webex Calling professional license as well as location and extension settings.</p>
 <ul>
 <li><p>YourFullName = Your first and last name</p></li>
 <li><p>## = Instructor provided student number</p></li>
@@ -97,6 +99,11 @@ number</p></li>
 </tbody>
 </table>
 
+!!! note "Using the Add Users and Devices Template and import csv file"
+
+    First download the existing user list, Go to Management-&gt;Users-&gt;Add users dropdown-&gt;Manage users by CSV  and click on Generate a new CSV. Under Export Status, look for Results and the Download link. In the downloaed file, remove Anita Perez row, this file will be your user csv template to import. Copy paste all existing users email addresses of the user csv file, and paste them in your [AddUserandDeviceTemplate](assets/AddUsersandDevicesTemplate.xlsx) excel file, copy the columns from the template, from row number 3, and paste them in your downloaded user file. Don't modify the first row of your user csv template. Import csv file.
+
+
 <table>
 <colgroup>
 <col style="width: 53%" />
@@ -105,9 +112,9 @@ number</p></li>
 </colgroup>
 <thead>
 <tr>
-<th>HQ User Emails</th>
-<th>Extensions</th>
-<th>License</th>
+<th style="background-color: #dddddd">HQ User Emails</th>
+<th style="background-color: #dddddd">Extensions</th>
+<th style="background-color: #dddddd">License</th>
 </tr>
 </thead>
 <tbody>
@@ -157,9 +164,9 @@ number</p></li>
 </colgroup>
 <thead>
 <tr>
-<th>Factory User Emails</th>
-<th>Extensions</th>
-<th>License</th>
+<th style="background-color: #dddddd">Factory User Emails</th>
+<th style="background-color: #dddddd">Extensions</th>
+<th style="background-color: #dddddd">License</th>
 </tr>
 </thead>
 <tbody>

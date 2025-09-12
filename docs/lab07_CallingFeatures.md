@@ -36,7 +36,7 @@
 
 # Lab 7 - Configuring Calling features
 
-In tdis lab, you will learn how to create virtual extensions, call park extensions, and call park groups.
+In this lab, you will learn how to create virtual extensions, call park extensions, and call park groups.
 
 ## Login Credentials
 
@@ -55,18 +55,18 @@ In tdis lab, you will learn how to create virtual extensions, call park extensio
 
 <table>
 <colgroup>
-<col style="widtd: 4%" />
-<col style="widtd: 95%" />
+<col style="width: 4%" />
+<col style="width: 95%" />
 </colgroup>
-<tdead>
+<tbody>
 <tr>
 <td rowspan="2">1.</td>
 <td>Services-&gt; Calling-&gt; Features-&gt; Call park extension-&gt;
 Create call park extension</td>
 </tr>
 <tr>
-<td><p>tde sales department needs to place callers on hold for team
-members to pick tdem up from any device</p>
+<td><p>the sales department needs to place callers on hold for team
+members to pick them up from any device</p>
 <p>Create call park extensions</p>
 <ul>
 <li><p>Location: HQ</p></li>
@@ -78,8 +78,8 @@ members to pick tdem up from any device</p>
 </ul></li>
 </ul></td>
 </tr>
-</tdead>
-<tbody>
+
+
 <tr>
 <td rowspan="2">2.</td>
 <td>Services-&gt; Calling-&gt; Features-&gt; Call park group-&gt; Select
@@ -109,8 +109,8 @@ href="mailto:Sales2@YourFullName">Sales2@YourFullName##.com</a></p></li>
 call pickup</td>
 </tr>
 <tr>
-<td><p>tde Sales Department employees need to answer each otder calls
-when otder team members in tde same location are unavailable.</p>
+<td><p>the Sales Department employees need to answer each other calls
+when other team members in the same location are unavailable.</p>
 <p>Create Pickup Group</p>
 <ul>
 <li><p>Location: HQ</p></li>
@@ -148,8 +148,8 @@ employees.</p>
 voicemail group</td>
 </tr>
 <tr>
-<td><p>After hours calls need to route to a voice mailbox tdat all
-employees in tde Sales and Marketing departments can access</p>
+<td><p>After hours calls need to route to a voice mailbox that all
+employees in the Sales and Marketing departments can access</p>
 <p>Create a voicemail group</p>
 <ul>
 <li><p>Location: HQ</p></li>
@@ -164,9 +164,9 @@ employees in tde Sales and Marketing departments can access</p>
 <td>Services-&gt; Calling-&gt; Features-&gt; Operating Mode</td>
 </tr>
 <tr>
-<td><p>Rebekah Barretta needs to route calls to voicemail for tde
-Product Development department as needed. For example, if tde office
-closes unexpectedly or tdere is a company-wide meeting.</p>
+<td><p>Rebekah Barretta needs to route calls to voicemail for the
+Product Development department as needed. For example, if the office
+closes unexpectedly or there is a company-wide meeting.</p>
 <p>Create an operating mode</p>
 <ul>
 <li><p>Level: Organization</p></li>
@@ -180,8 +180,8 @@ closes unexpectedly or tdere is a company-wide meeting.</p>
 -&gt; Add</td>
 </tr>
 <tr>
-<td><p>During business hours, tde employees in Marketing and Product
-Development departments need to share tde volume of incoming calls</p>
+<td><p>During business hours, the employees in Marketing and Product
+Development departments need to share the volume of incoming calls</p>
 <p>Create a hunt group for Marketing</p>
 <ul>
 <li><p>Location: HQ</p></li>
@@ -210,7 +210,7 @@ Development departments need to share tde volume of incoming calls</p>
 Manage-&gt; Add File -&gt; Upload</td>
 </tr>
 <tr>
-<td><p>tde company needs to let callers know tdat certain calls are
+<td><p>the company needs to let callers know that certain calls are
 recorded.</p>
 <p>Upload a greeting to be used for specific features</p>
 <ul>
@@ -226,14 +226,14 @@ instructor</p></li>
 Manage-&gt; Add File -&gt; Record</td>
 </tr>
 <tr>
-<td><p>tde company wants callers to hear messages periodically while
-tdey are on hold for certain calls.</p>
+<td><p>the company wants callers to hear messages periodically while
+they are on hold for certain calls.</p>
 <p>Record and save a greeting to be used for specific features</p>
 <ul>
 <li><p>Location: Organization</p></li>
 <li><p>Label: Waiting</p></li>
 <li><p>Filename: Answer Soon</p></li>
-<li><p>Message: “Your call is important to us. We will be witd you
+<li><p>Message: “Your call is important to us. We will be with you
 shortly”</p></li>
 </ul></td>
 </tr>
@@ -243,10 +243,10 @@ shortly”</p></li>
 auto attendant</td>
 </tr>
 <tr>
-<td><p>Calls to tde Factory main number must be answered by an automated
-system giving callers tde options to reach tdeir desired department witd
+<td><p>Calls to the Factory main number must be answered by an automated
+system giving callers the options to reach their desired department with
 different options for business and after hours</p>
-<p>Create an auto attendant for tde Factory main number</p>
+<p>Create an auto attendant for the Factory main number</p>
 <ul>
 <li><p>Location: Factory</p></li>
 <li><p>Name: AA Main</p></li>
@@ -260,11 +260,11 @@ different options for business and after hours</p>
 <li><p>Disable extension level dialing</p></li>
 <li><p>Option 1:</p>
 <ul>
-<li><p>Transfer witdout prompt: Marketing HG</p></li>
+<li><p>Transfer without prompt: Marketing HG</p></li>
 </ul></li>
 <li><p>Option 2:</p>
 <ul>
-<li><p>Transfer witdout prompt: Product Development HG</p></li>
+<li><p>Transfer without prompt: Product Development HG</p></li>
 </ul></li>
 <li><p>Option 3: Repeat Menu</p></li>
 <li><p>Option 4: Transfer call to operator – Anita Perez</p></li>

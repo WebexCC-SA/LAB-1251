@@ -36,7 +36,7 @@
 
 # Lab 10 – Configurations in User Hub
 
-In tdis lab, you will learn how users can configure calling settings in User Hub.
+In this lab, you will learn how users can configure calling settings in User Hub.
 
 ## Login Credentials
 
@@ -55,19 +55,19 @@ In tdis lab, you will learn how users can configure calling settings in User Hub
 
 <table>
 <colgroup>
-<col style="widtd: 4%" />
-<col style="widtd: 95%" />
+<col style="width: 4%" />
+<col style="width: 95%" />
 </colgroup>
-<tdead>
+<tbody>
 <tr>
 <td rowspan="2">1.</td>
 <td>user.webex.com-&gt; Settings -&gt; Calling -&gt; Features -&gt; Mode
 Management</td>
 </tr>
 <tr>
-<td><p>Rebekah Barretta needs to route calls to voicemail for tde
-Product Development department as needed. For example, if tde office
-closes unexpectedly or tdere is a company-wide meeting.</p>
+<td><p>Rebekah Barretta needs to route calls to voicemail for the
+Product Development department as needed. For example, if the office
+closes unexpectedly or there is a company-wide meeting.</p>
 <p>Manage call-forwarding settings in User Hub</p>
 <ul>
 <li><p>Select Product Development HG</p>
@@ -80,14 +80,14 @@ closes unexpectedly or tdere is a company-wide meeting.</p>
 </ul></li>
 </ul></td>
 </tr>
-</tdead>
-<tbody>
+
+
 <tr>
 <td rowspan="2">2.</td>
 <td>user.webex.com -&gt; Settings -&gt; Calling -&gt; Hoteling</td>
 </tr>
 <tr>
-<td><p>Rebekah Barretta sometimes needs to use a phone at tde San Jose
+<td><p>Rebekah Barretta sometimes needs to use a phone at the San Jose
 location as her own when she visits</p>
 <p>Enable hoteling for Rebekah Barretta</p>
 <ul>

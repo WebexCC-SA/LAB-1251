@@ -36,7 +36,7 @@
 
 # Lab 8 - Creating Call Queues
 
-In tdis lab, you will learn how to create call queues.
+In this lab, you will learn how to create call queues.
 
 ## Login Credentials
 
@@ -55,17 +55,17 @@ In tdis lab, you will learn how to create call queues.
 
 <table>
 <colgroup>
-<col style="widtd: 4%" />
-<col style="widtd: 95%" />
+<col style="width: 4%" />
+<col style="width: 95%" />
 </colgroup>
-<tdead>
+<tbody>
 <tr>
 <td rowspan="2">1.</td>
 <td>Services-&gt; Calling-&gt; Features-&gt; Call Queue-&gt; Manage
 -&gt; Add</td>
 </tr>
 <tr>
-<td><p>During business hours, callers to tde San Jose Support and Sales
+<td><p>During business hours, callers to the San Jose Support and Sales
 departments should be placed on hold until an agent is available.</p>
 <p>Create a Call Queue</p>
 <ul>
@@ -103,15 +103,15 @@ href="mailto:Sales2@YourFullName">Sales2@YourFullName##.com</a></p></li>
 <li><p>Stranded calls: Follow Night Service</p></li>
 </ul></td>
 </tr>
-</tdead>
-<tbody>
+
+
 <tr>
 <td rowspan="2">2.</td>
 <td>Services-&gt; Calling-&gt; Features-&gt; Call queue-&gt;
 Supervisors-&gt; Add Supervisor</td>
 </tr>
 <tr>
-<td><p>tde supervisor needs to silently monitor agents in tdeir
+<td><p>the supervisor needs to silently monitor agents in their
 respective queues</p>
 <ul>
 <li><p>Supervisor: Charles Holland</p></li>

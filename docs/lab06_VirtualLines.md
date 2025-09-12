@@ -36,7 +36,7 @@
 
 # Lab 6 - Virtual and shared lines
 
-Learn how to create virtual lines and assign tdem as shared line appearances.
+Learn how to create virtual lines and assign them as shared line appearances.
 
 ## Login Credentials
 
@@ -55,10 +55,10 @@ Learn how to create virtual lines and assign tdem as shared line appearances.
 
 <table>
 <colgroup>
-<col style="widtd: 4%" />
-<col style="widtd: 95%" />
+<col style="width: 4%" />
+<col style="width: 95%" />
 </colgroup>
-<tdead>
+<tbody>
 <tr>
 <td rowspan="2">1.</td>
 <td>Services-&gt; Calling-&gt; Virtual Lines</td>
@@ -73,17 +73,17 @@ calling customers in the Houston area</p>
 <li><p>Assign a spare phone number and extension 110 and 111</p></li>
 </ul></td>
 </tr>
-</tdead>
-<tbody>
+
+
 <tr>
 <td rowspan="2">2.</td>
 <td>Management-&gt; Devices-&gt; Select device-&gt; Device Management
 -&gt; Configure Lines</td>
 </tr>
 <tr>
-<td><p>Eric Steele and Kellie will need to access tdose lines on tdeir
+<td><p>Eric Steele and Kellie will need to access those lines on their
 8800 series Cisco multi-platform phones</p>
-<p>Assign virtual lines from tde step above to tde appropriate
+<p>Assign virtual lines from the step above to the appropriate
 devices</p></td>
 </tr>
 </tbody>

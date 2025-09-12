@@ -36,7 +36,7 @@
 
 # Lab 9 - Admin-controlled user features
 
-In tdis lab, you will learn to configure admin-controlled user features.
+In this lab, you will learn to configure admin-controlled user features.
 
 ## Login Credentials
 
@@ -55,34 +55,34 @@ In tdis lab, you will learn to configure admin-controlled user features.
 
 <table>
 <colgroup>
-<col style="widtd: 4%" />
-<col style="widtd: 95%" />
+<col style="width: 4%" />
+<col style="width: 95%" />
 </colgroup>
-<tdead>
+<tbody>
 <tr>
 <td rowspan="2">1.</td>
 <td>Management-&gt; Users-&gt; Rebekah Barretta-&gt; Calling-&gt;
 Calling handling -&gt; Mode management</td>
 </tr>
 <tr>
-<td><p>Rebekah Barretta needs to change tde Product Development HQ to
+<td><p>Rebekah Barretta needs to change the Product Development HQ to
 ToVmail operating mode as needed</p>
 <p>Enable mode management for Rebekah Barretta</p>
 <ul>
 <li><p>Add Product Development HQ</p>
-<p><em>Make note of Rebekah’s email address for tde next
+<p><em>Make note of Rebekah’s email address for the next
 lab!</em></p></li>
 </ul></td>
 </tr>
-</tdead>
-<tbody>
+
+
 <tr>
 <td rowspan="2">2.</td>
 <td>Management-&gt; Users-&gt; Anita Perez-&gt; Calling-&gt;
 Between-user permissions-&gt; Monitoring</td>
 </tr>
 <tr>
-<td><p>Anita Perez requires tde ability to monitor tde lines all sales
+<td><p>Anita Perez requires the ability to monitor the lines all sales
 employees</p>
 <p>Add monitored lines to Anita Perez’s profile</p>
 <ul>
@@ -102,8 +102,8 @@ href="mailto:Sales2@YourFullName">Sales2@YourFullName##.com</a></p></li>
 Between-user permissions -&gt; Hotdesking</td>
 </tr>
 <tr>
-<td><p>Anita Perez needs to use a line witd a Houston phone number
-(virtual line created in Lab 6) when using tde Hotdesking feature</p>
+<td><p>Anita Perez needs to use a line with a Houston phone number
+(virtual line created in Lab 6) when using the Hotdesking feature</p>
 <p>Add virtual line to Anita Perez’s profile</p>
 <ul>
 <li><p>Add: Extra Line1</p></li>

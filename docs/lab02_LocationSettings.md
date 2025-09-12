@@ -59,7 +59,9 @@ In this lab, you will learn how to add locations.
 <col style="width: 4%" />
 <col style="width: 95%" />
 </colgroup>
-<td>
+<tbody>
+
+
 <tr>
 <td rowspan="2"><p id="p1">1.</p></td>
 <td><p id="p1">Management-&gt; Locations-&gt; dCloud-&gt; Location info</p></td>
@@ -71,8 +73,8 @@ In this lab, you will learn how to add locations.
 <li><p>Location name: HQ</p></li>
 </ul></td>
 </tr>
-</td>
-<tbody>
+
+
 <tr>
 <td rowspan="2"><p id="p1">2.</p></td>
 <td><p id="p1">Management-&gt; Locations-&gt; Manage locations-&gt; Create
@@ -144,8 +146,8 @@ location must present their own main number as their caller id.</p>
 <li><p>Select any of the available numbers</p></li>
 
 </ul>
-You will need to know these numbers in a subsequent lab; make a
-note of which ones you use
+<p>You will need to know your locations main number in a subsequent lab; make a
+note of which ones you use.</p>
 </td>
 </tr>
 <tr>
