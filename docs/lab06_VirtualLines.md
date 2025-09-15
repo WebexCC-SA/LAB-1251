@@ -60,15 +60,16 @@ Learn how to create virtual lines and assign them as shared line appearances.
 </colgroup>
 <tbody>
 <tr>
-<td rowspan="2">1.</td>
-<td>Services-&gt; Calling-&gt; Virtual Lines</td>
+<td rowspan="2"><p id="p1">1.</p></td>
+<td><p id="p1">Services-&gt; Calling-&gt; Virtual Lines</p></td>
 </tr>
 <tr>
-<td><p>Eric Steele and Kellie Melby require a Houston phone number for
-calling customers in the Houston area</p>
+<td><p id="p2">Eric Steele and Kellie Melby need virtual Houston
+phone lines to call Houston-based customers, enabling them to
+maintain a local presence, despite being based in California (HQ).</p>
 <p>Create two virtual lines</p>
 <ul>
-<li><p>Names: Extra Line1 and Extra Line2</p></li>
+<li><p>Names: Houston Cust Line1 and Houston Cust Line2</p></li>
 <li><p>Location: Factory</p></li>
 <li><p>Assign a spare phone number and extension 110 and 111</p></li>
 </ul></td>
@@ -76,15 +77,16 @@ calling customers in the Houston area</p>
 
 
 <tr>
-<td rowspan="2">2.</td>
-<td>Management-&gt; Devices-&gt; Select device-&gt; Device Management
--&gt; Configure Lines</td>
+<td rowspan="2"><p id="p1">2.</p></td>
+<td><p id="p1">Services-&gt; Calling-&gt; Virtual Lines-&gt; Select Virtual Line-&gt; Devices-&gt; Assign Device</p></td>
 </tr>
 <tr>
-<td><p>Eric Steele and Kellie will need to access those lines on their
-8800 series Cisco multi-platform phones</p>
-<p>Assign virtual lines from the step above to the appropriate
-devices</p></td>
+<td><p id="p2">Eric Steele and Kellie will need to access to the Houston Customer Line from their Cisco 8865 MPP phones</p>
+<ul>
+<li><p>Assign Eric's Cisco 8865 device to the virtual lines Houston Cust Line1 </p></li>
+<li><p>Assign Kellie's Cisco 8865 device to the virtual lines Houston Cust Line2 </p></li>
+</ul>
+</td>
 </tr>
 </tbody>
 </table>
