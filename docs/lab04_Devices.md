@@ -56,30 +56,53 @@ In this lab, learn how to assign devices to users.
 
 <table>
 <colgroup>
-<col style="widtd: 4%" />
-<col style="widtd: 95%" />
+<col style="width: 4%" />
+<col style="width: 95%" />
 </colgroup>
 <tbody>
+
 <tr>
-<td rowspan="2">1.</td>
-<td>Devices-&gt; Add device-&gt; Personal Usage OR Multiple Cisco IP
-Phones</td>
+<td rowspan="2"><p id="p1">1.</p></td>
+<td><p id="p1">Devices-&gt; Add device-&gt; Personal Usage</p></td>
 </tr>
+
 <tr>
-<td><p>All users have a Cisco <mark>8800</mark> series phone</p>
+<td><p id="p2">Anita Perez needs a 8865 phone</p>
+
+<p>Assign devices to users manually or in bulk</p>
 <ul>
-<li><p>Use instructor provided Add Users and Devices Template file or
-tables below</p>
-<ul>
-<li><p>Assign devices to users manually or in bulk</p></li>
-</ul></li>
-<li><p>Activation metdod: Activation Code</p></li>
-<li><p>Do not include extension numbers in tde CSV file</p></li>
-<li><p>Type: USER</p></li>
-<li><p>Device Type: IP</p></li>
-<li><p>Model: Cisco <mark>8865</mark></p></li>
+<li><p>Activation method: Activation Code</p></li>
+<li><p>Model: Cisco 8865</p></li>
 </ul></td>
 </tr>
+
+<tr>
+<td rowspan="2"><p id="p1">2.</p></td>
+<td><p id="p1">Devices-&gt; Add device-&gt;  Multiple Cisco IP
+Phones</p></td>
+</tr>
+
+<tr>
+<td><p id="p2">All users have a Cisco 8800 series phone</p>
+<ul>
+<p>Use the "Add device sample template" in Control Hub to bulk add devices to the users. </p>
+<li><p>Download "Add device sample template"</p></li>
+<li><p>Download "Users in my organization"</p></li>
+<li><p>Copy all email adresses except for Anita PerezGet Username from the "Users in my organization" template. </p> </li>
+<li>
+<p>Use the "Add device sample template" to assign devices to users in bulk. Fill only the indicated columns, leave the rest blank.</p>
+<ul>
+<li><p>Username: Paste email adresses</p></li>
+<li><p>Type: USER</p></li>
+<li><p>Device Type: IP</p></li>
+<li><p>Model: Cisco 8865</p></li>
+</ul>
+</li>
+<li><p>Upload the modified device sample template, scroll down and select Provide link, before submit the file</p></li>
+<li><p>When the job finish, download the activation code list</p></li>
+</ul></td>
+</tr>
+
 </tbody>
 </table>
 

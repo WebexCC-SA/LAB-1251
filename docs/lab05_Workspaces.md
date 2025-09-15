@@ -57,114 +57,122 @@ In this lab, you will learn how to create workspaces, assign devices to workspac
 
 <table>
 <colgroup>
-<col style="widtd: 6%" />
-<col style="widtd: 93%" />
+<col style="width: 6%" />
+<col style="width: 93%" />
 </colgroup>
 <tbody>
 <tr>
-<td rowspan="2">1.</td>
-<td>Management-&gt; Workspaces-&gt; Add Workspace</td>
+<td rowspan="2"><p id="p1">1.</p></td>
+<td><p id="p1">Management-&gt; Workspaces-&gt; Add Workspace</p></td>
 </tr>
 <tr>
-<td><p>Paw Pet Supply Solutions has 4 shared use areas in which they
-need to hold meetings and make and receive calls</p>
-<ul>
-<li><p>Add the workspaces with the corresponding devices and
-services</p></li>
-</ul></td>
+<td><p id="p2">Paw Pet Supply Solutions has 4 shared use areas in which they need to hold meetings and make and receive calls</p>
+<p>Add the workspaces with the corresponding devices and services</p>
+</td>
 </tr>
 <tr>
 <td colspan="2"><table>
 <colgroup>
-<col style="widtd: 18%" />
-<col style="widtd: 10%" />
-<col style="widtd: 13%" />
-<col style="widtd: 33%" />
-<col style="widtd: 11%" />
-<col style="widtd: 12%" />
+<col style="width: 18%" />
+<col style="width: 10%" />
+<col style="width: 13%" />
+<col style="width: 16%" />
+<col style="width: 30%" />
+<col style="width: 10%" />
 </colgroup>
 <tdead>
 <tr>
 <td>Workspace name</td>
+<td>Location</td>
 <td>Type</td>
 <td>Device</td>
 <td>Services</td>
-<td>Location</td>
 <td>Extension</td>
 </tr>
 </tdead>
 <tbody>
 <tr>
 <td>SharedCubicle1</td>
+<td>HQ</td>
 <td>Desk</td>
-<td>Cisco Desk Phone - 9841</td>
+<td>Cisco Managed Device: Cisco 8865</td>
 <td><p>Cisco Webex Calling</p>
 <p>Common area workspace</p></td>
-<td>HQ</td>
 <td>201</td>
 </tr>
 <tr>
 <td>SharedCubicle2</td>
+<td>HQ</td>
 <td>Desk</td>
-<td><mark>Cisco 8865</mark></td>
+<td>Cisco Managed Device: Cisco 8865</td>
 <td><p>Cisco Webex Calling</p>
 <p>Common area workspace</p></td>
-<td>HQ</td>
 <td>201</td>
 </tr>
+
 <tr>
-<td rowspan="2">Conference Room1</td>
-<td rowspan="2">Meeting Room</td>
-<td>Cisco Board Pro</td>
-<td rowspan="2">Cisco Webex Calling Professional workspace</td>
-<td rowspan="2">HQ</td>
-<td rowspan="2">300</td>
+<td>Conference Room1</td>
+<td>HQ</td>
+<td>Meeting Room</td>
+<td>Cisco Room and Desk device</td>
+<td>Cisco Webex Calling Professional workspace</td>
+<td>300</td>
+</tr>
+
+<tr>
 </tr>
 <tr>
-<td><mark>Cisco</mark> <mark>8865</mark></td>
+<td>Conference Room1</td>
+<td>Factory</td>
+<td>Meeting Room</td>
+<td>Cisco Room and Desk device</td>
+<td>Cisco Webex Calling Professional workspace</td>
+<td>300</td>
 </tr>
 <tr>
-<td rowspan="2">Conference Room1</td>
-<td rowspan="2">Meeting Room</td>
-<td>Cisco Board Pro</td>
-<td rowspan="2">Cisco Webex Calling Professional workspace</td>
-<td rowspan="2">Factory</td>
-<td rowspan="2">300</td>
-</tr>
-<tr>
-<td><mark>Cisco</mark> <mark>8865</mark></td>
 </tr>
 </tbody>
 </table></td>
 </tr>
 <tr>
-<td rowspan="2">2.</td>
-<td>Management-&gt; Workspaces-&gt; Select Workspace-&gt;
-Scheduling</td>
+<td rowspan="2"><p id="p1">2.</p></td>
+<td><p id="p1">Management-&gt; Workspaces-&gt; SharedCubicle1-&gt;
+Scheduling</p></td>
 </tr>
 <tr>
-<td><p>To conduct calls in private, users may sometimes need to access
-all of tdeir configured lines from a location otder tdan tdeir usual
+<td><p id="p2">To conduct calls in private, users may sometimes need to access
+all of their configured lines from a location other than their usual
 desk.</p>
-<p>Enable Hot Desking</p>
-<ul>
-<li><p>Workspace: SharedCubicle1</p></li>
-<li><p>Hot Desking: Enable</p></li>
-</ul></td>
+<p>Verify that Hot Desk Sign in is selected</p>
+</td>
+</tr>
+
+<tr>
+<td rowspan="2"><p id="p1">3.</p></td>
+<td><p id="p1">Management-&gt; Workspaces-&gt; SharedCubicle2-&gt;
+Scheduling</p></td>
 </tr>
 <tr>
-<td rowspan="2">3</td>
-<td>Management-&gt; Devices-&gt; Select device-&gt; Hoteling</td>
+<td><p id="p2">To enable hoteling, its needed to disable hot desking for the Workspace.</p>
+<p>Disable Hot Desk Sign in </p>
+</td>
+</tr>
+
+
+
+<tr>
+<td rowspan="2"><p id="p1">4.</p></td>
+<td><p id="p1">Management-&gt; Devices-&gt; SharedCubicle2&gt; Hoteling</p></td>
 </tr>
 <tr>
-<td><p>To conduct calls in private, users may sometimes need to make and
-receive calls in a space otder tdan tdeir typical desk. Most of tdese
+<td><p id="p2">To conduct calls in private, users may sometimes need to make and
+receive calls in a space other than their typical desk. Most of these
 users only have a primary line.</p>
 <p>Enable device to be used as a hoteling host</p>
 <ul>
 <li><p>Device: Cisco 8865 belonging to SharedCubicle2</p></li>
 <li><p>Hoteling: Enable</p></li>
-<li><p>Limit tde time a guest can use tdis phone to 12 hours</p></li>
+<li><p>Limit the time a guest can use this phone to 12 hours</p></li>
 </ul></td>
 </tr>
 </tbody>
