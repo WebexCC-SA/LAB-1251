@@ -13,7 +13,7 @@ This guide is structured into multiple labs, each focusing on a specific aspect 
     * Download the [Login Credential file](assets/Wx1_WxC_StudentCredentials.xlsx), you will be asigned a student number
     * All users have the same password
     * Ensure correct login for each task
-    * Green text = Online navigation for the portal in use
+    * Join [Webex Space for LAB-1251](https://eurl.io/#oT7O5ivEP)
 
 - End of each lab section marked by "STOP – END OF LAB”
 
