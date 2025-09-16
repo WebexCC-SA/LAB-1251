@@ -42,7 +42,7 @@ In this lab, you will learn how users can configure calling settings in User Hub
 
 <table>
 <tr>
-<td><p id="p3">URL</p></td>
+<td><p id="p3">URL (use incognito mode in your browser)</p></td>
 <td><a href="https://user.webex.com">user.webex.com</a></td>
 </tr>
 <tr>
@@ -60,13 +60,11 @@ In this lab, you will learn how users can configure calling settings in User Hub
 </colgroup>
 <tbody>
 <tr>
-<td rowspan="2">1.</td>
-<td>user.webex.com-&gt; Settings -&gt; Calling -&gt; Features -&gt; Mode
-Management</td>
+<td rowspan="2"><p id="p1">1.</p></td>
+<td><p id="p1">user.webex.com-&gt; Settings -&gt; Calling -&gt; Features -&gt; Mode Management</p></td>
 </tr>
 <tr>
-<td><p>Rebekah Barretta needs to route calls to voicemail for the
-Product Development department as needed. For example, if the office
+<td><p id="p2">Rebekah Barretta needs to route calls to voicemail for the Product Development department as needed. For example, if the office
 closes unexpectedly or there is a company-wide meeting.</p>
 <p>Manage call-forwarding settings in User Hub</p>
 <ul>
@@ -83,12 +81,11 @@ closes unexpectedly or there is a company-wide meeting.</p>
 
 
 <tr>
-<td rowspan="2">2.</td>
-<td>user.webex.com -&gt; Settings -&gt; Calling -&gt; Hoteling</td>
+<td rowspan="2"><p id="p1">2.</p></td>
+<td><p id="p1">user.webex.com -&gt; Settings -&gt; Calling -&gt; Call Settings -&gt; Hoteling</p></td>
 </tr>
 <tr>
-<td><p>Rebekah Barretta sometimes needs to use a phone at the San Jose
-location as her own when she visits</p>
+<td><p id="p2">Rebekah Barretta sometimes needs to use a phone at the San Jose location as her own when she visits</p>
 <p>Enable hoteling for Rebekah Barretta</p>
 <ul>
 <li><p>Hoteling: SharedCubicle2</p></li>

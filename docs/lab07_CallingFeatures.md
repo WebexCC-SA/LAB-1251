@@ -60,13 +60,12 @@ In this lab, you will learn how to create virtual extensions, call park extensio
 </colgroup>
 <tbody>
 <tr>
-<td rowspan="2">1.</td>
-<td>Services-&gt; Calling-&gt; Features-&gt; Call park extension-&gt;
-Create call park extension</td>
+<td rowspan="2"><p id="p1">1.</p></td>
+<td><p id="p1">Services-&gt; Calling-&gt; Features-&gt; Call park extension-&gt;
+Add New</p></td>
 </tr>
 <tr>
-<td><p>the sales department needs to place callers on hold for team
-members to pick them up from any device</p>
+<td><p id="p2">The sales department needs to place callers on hold for team members to pick them up from any device without tying up their personal extensions.</p>
 <p>Create call park extensions</p>
 <ul>
 <li><p>Location: HQ</p></li>
@@ -81,12 +80,11 @@ members to pick them up from any device</p>
 
 
 <tr>
-<td rowspan="2">2.</td>
-<td>Services-&gt; Calling-&gt; Features-&gt; Call park group-&gt; Select
-location-&gt; Create call park group</td>
+<td rowspan="2"><p id="p1">2.</p></td>
+<td><p id="p1">Services-&gt; Calling-&gt; Features-&gt; Call park group-&gt; Add New</p></td>
 </tr>
 <tr>
-<td><p>Create a call park group</p>
+<td><p id="p2">Create a call park group</p>
 <ul>
 <li><p>Location: HQ</p></li>
 <li><p>Name: Sales CP Group</p></li>
@@ -94,8 +92,7 @@ location-&gt; Create call park group</td>
 <ul>
 <li><p>Kellie Melby</p></li>
 <li><p>Sales1@YourFullName##.com</p></li>
-<li><p><a
-href="mailto:Sales2@YourFullName">Sales2@YourFullName##.com</a></p></li>
+<li><p>Sales2@YourFullName##.com</p></li>
 </ul></li>
 <li><p>Park Destinations: Call Park Extensions 401, 402, 403</p>
 <ul>
@@ -104,12 +101,11 @@ href="mailto:Sales2@YourFullName">Sales2@YourFullName##.com</a></p></li>
 </ul></td>
 </tr>
 <tr>
-<td rowspan="2">3.</td>
-<td>Services-&gt; Calling-&gt; Features-&gt; Call pickup-&gt; Create
-call pickup</td>
+<td rowspan="2"><p id="p1">3.</p></td>
+<td><p id="p1">Services-&gt; Calling-&gt; Features-&gt; Call pickup-&gt; Add New</p></td>
 </tr>
 <tr>
-<td><p>the Sales Department employees need to answer each other calls
+<td><p id="p2">the Sales Department employees need to answer each other calls
 when other team members in the same location are unavailable.</p>
 <p>Create Pickup Group</p>
 <ul>
@@ -119,37 +115,31 @@ when other team members in the same location are unavailable.</p>
 <ul>
 <li><p>Kellie Melby</p></li>
 <li><p>Sales1@YourFullName##.com</p></li>
-<li><p><a
-href="mailto:Sales2@YourFullName">Sales2@YourFullName##.com</a></p></li>
+<li><p>Sales2@YourFullName##.com</p></li>
 </ul></li>
 </ul></td>
 </tr>
 <tr>
-<td rowspan="2">4.</td>
-<td>Services-&gt; Calling-&gt; Features-&gt; Paging group-&gt; Create
-paging group</td>
+<td rowspan="2"><p id="p1">4.</p></td>
+<td><p id="p1">Services-&gt; Calling-&gt; Features-&gt; Paging group-&gt; Add New</p></td>
 </tr>
 <tr>
-<td><p>Anita Perez needs to quickly make important announcements to all
-employees.</p>
+<td><p id="p2">Anita Perez needs to quickly make important announcements to all employees.</p>
 <p>Create a paging group</p>
 <ul>
 <li><p>Location: HQ</p></li>
 <li><p>Name: Announcements Page</p></li>
 <li><p>Extension: 501</p></li>
-<li><p>Caller ID: Announcements Page</p></li>
 <li><p>Paging Targets: All employees</p></li>
 <li><p>Paging Originators: Anita Perez</p></li>
 </ul></td>
 </tr>
 <tr>
-<td rowspan="2">5</td>
-<td>Services-&gt; Calling-&gt; Features -&gt;Voicemail group-&gt; Create
-voicemail group</td>
+<td rowspan="2"><p id="p1">5.</p></td>
+<td><p id="p1">Services-&gt; Calling-&gt; Features -&gt;Voicemail group-&gt; Add New</p></td>
 </tr>
 <tr>
-<td><p>After hours calls need to route to a voice mailbox that all
-employees in the Sales and Marketing departments can access</p>
+<td><p id="p2">After hours calls need to route to a voice mailbox that all employees in the Sales and Marketing departments can access</p>
 <p>Create a voicemail group</p>
 <ul>
 <li><p>Location: HQ</p></li>
@@ -157,127 +147,118 @@ employees in the Sales and Marketing departments can access</p>
 <li><p>Extension: 600</p></li>
 <li><p>Passcode: 258011</p></li>
 <li><p>Language: English</p></li>
-</ul></td>
+<li><p>Do not make changes to Voicemail Settings</p></li>
+</ul>
+</td>
 </tr>
 <tr>
-<td rowspan="2">6</td>
-<td>Services-&gt; Calling-&gt; Features-&gt; Operating Mode</td>
+<td rowspan="2"><p id="p1">6.</p></td>
+<td><p id="p1">Services-&gt; Calling-&gt; Features-&gt; Operating Mode-&gt; Add New</p></td>
 </tr>
 <tr>
-<td><p>Rebekah Barretta needs to route calls to voicemail for the
-Product Development department as needed. For example, if the office
-closes unexpectedly or there is a company-wide meeting.</p>
+<td><p id="p2">Rebekah Barretta needs to route Product Development calls to voicemail during events like unexpected office closures or company-wide meetings.</p>
 <p>Create an operating mode</p>
 <ul>
 <li><p>Level: Organization</p></li>
-<li><p>Name: ToVmail</p></li>
+<li><p>Name: ToMode</p></li>
 <li><p>Forward destination: Ext 600 (AfterHours VmailGroup)</p></li>
+<li><p>Schedule: None</p></li>
 </ul></td>
 </tr>
 <tr>
-<td rowspan="2">7</td>
-<td>Services-&gt; Calling-&gt; Features-&gt; Hunt group-&gt; Manage
--&gt; Add</td>
+<td rowspan="2"><p id="p1">7.</p></td>
+<td><p id="p1">Services-&gt; Calling-&gt; Features-&gt; Hunt group-&gt; Add New</p></td>
 </tr>
 <tr>
-<td><p>During business hours, the employees in Marketing and Product
-Development departments need to share the volume of incoming calls</p>
-<p>Create a hunt group for Marketing</p>
+<td><p id="p2">During business hours, Marketing  employees need to share the incoming call volume within their groups. Create a hunt group for Marketing</p>
 <ul>
 <li><p>Location: HQ</p></li>
 <li><p>Name: Marketing HG</p></li>
 <li><p>Extensions: 701</p></li>
-<li><p>Routing: Circular</p></li>
+<li><p>Routing: Longest idle</p></li>
 <li><p>Routing Options: Advance when busy</p></li>
-<li><p>Assign all Marketing employees and Eric Steele</p>
-<p>Create a hunt group for Product Development</p></li>
+<li><p>Assign all Marketing employees and Eric Steele</p></li>
+</ul>
+<p id="p2">During business hours Product Development employees need to share the incoming call volume within their groups. Create a hunt group for Product Development. Rebekah Barretta needs to activate Operation mode to route calls to voicemail during events like unexpected office closures or company-wide meetings.</p>
+<ul>
 <li><p>Location: Factory</p></li>
 <li><p>Name: ProductDev HG</p></li>
 <li><p>Extensions: 701</p></li>
 <li><p>Routing: Circular</p></li>
 <li><p>Routing Options: Advance when busy</p></li>
-<li><p>Assign all Marketing employees and Eric Steele</p></li>
-<li><p>Call Forwarding: Enable</p>
+<li><p>Assign all ProductDev employees and Rebeka Barretta</p></li>
+<li><p>Create HG</p></li>
+<li><p>Open HG and open Call Forwarding </p>
 <ul>
+<li><p>Call Forwarding: Enable</p>
 <li><p>Forward calls by mode</p></li>
-<li><p>Add ToVmail operating mode</p></li>
+<li><p>Add ToMode operating mode</p></li>
 </ul></li>
 </ul></td>
 </tr>
 <tr>
-<td rowspan="2">8</td>
-<td>Services-&gt; Calling-&gt; Features-&gt; Announcements-&gt;
-Manage-&gt; Add File -&gt; Upload</td>
+<td rowspan="2"><p id="p1">8.</p></td>
+<td><p id="p1">Services-&gt; Calling-&gt; Features-&gt; Announcements-&gt;
+Add New</p></td>
 </tr>
 <tr>
-<td><p>the company needs to let callers know that certain calls are
-recorded.</p>
+<td><p id="p2">The company needs to let callers know that certain calls are recorded.</p>
 <p>Upload a greeting to be used for specific features</p>
 <ul>
+<li><p>Upload</p></li>
 <li><p>Location: Organization</p></li>
-<li><p>Label: Calls will be Recorded</p></li>
-<li><p>Filename: All-Calls-are-Recorded.wav, file provided by
-instructor</p></li>
-</ul></td>
-</tr>
-<tr>
-<td rowspan="2">9</td>
-<td>Services-&gt; Calling-&gt; Features-&gt; Announcements-&gt;
-Manage-&gt; Add File -&gt; Record</td>
-</tr>
-<tr>
-<td><p>the company wants callers to hear messages periodically while
+<li><p>Download <a href="https://webexcc-sa.github.io/LAB-1251/assets/All-Calls-are-Recorded.wav">All-Calls-are-Recorded.wav</a></p></li>
+<li><p>Upload: All-Calls-are-Recorded.wav</p></li>
+</ul>
+
+<p id="p2">The company wants callers to hear messages periodically while
 they are on hold for certain calls.</p>
 <p>Record and save a greeting to be used for specific features</p>
 <ul>
+<li><p>Record</p></li>
 <li><p>Location: Organization</p></li>
 <li><p>Label: Waiting</p></li>
 <li><p>Filename: Answer Soon</p></li>
-<li><p>Message: “Your call is important to us. We will be with you
-shortly”</p></li>
+<li><p>Message: “Your call is important to us. We will be with you shortly”</p></li>
 </ul></td>
 </tr>
 <tr>
-<td rowspan="2">10</td>
-<td>Services-&gt; Calling-&gt; Features-&gt; Auto attendant-&gt; Create
-auto attendant</td>
+<td rowspan="2"><p id="p1">9.</p></td>
+<td><p id="p1">Services-&gt; Calling-&gt; Features-&gt; Auto attendant-&gt; Add New</p></td>
 </tr>
 <tr>
-<td><p>Calls to the Factory main number must be answered by an automated
-system giving callers the options to reach their desired department with
-different options for business and after hours</p>
+<td><p id="p2">Calls to the Factory main number must be answered by an automated system giving callers the options to reach their desired department with different options for business and after hours</p>
 <p>Create an auto attendant for the Factory main number</p>
 <ul>
 <li><p>Location: Factory</p></li>
 <li><p>Name: AA Main</p></li>
-<li><p>Number: Factory Main Number</p></li>
+<li><p>Phone Number: Factory Main Number (taken from Lab02)</p></li>
 <li><p>Extension: 250</p></li>
 <li><p>Language: English</p></li>
-<li><p>Schedule: Open Hours</p></li>
+<li><p>Business Hours Schedule: Open Hours</p></li>
 <li><p>Holiday Schedule: None</p></li>
-<li><p>Business Hours Menu</p>
+<li><p id="p3">Business Hours Menu</p>
 <ul>
 <li><p>Disable extension level dialing</p></li>
-<li><p>Option 1:</p>
-<ul>
-<li><p>Transfer without prompt: Marketing HG</p></li>
-</ul></li>
-<li><p>Option 2:</p>
-<ul>
-<li><p>Transfer without prompt: Product Development HG</p></li>
-</ul></li>
+<li><p>Option 1:Transfer without prompt:Extension 81-701 (Marketing HG)</p></li>
+<li><p>Option 2:Transfer without prompt: Extension 82-701 (Product Development Factory)</p></li>
 <li><p>Option 3: Repeat Menu</p></li>
-<li><p>Option 4: Transfer call to operator – Anita Perez</p></li>
+<li><p>Option 4: Transfer call to operator – Extension 81-101 (Anita Perez)</p></li>
 </ul></li>
-<li><p>After Hours Menu</p>
+<li><p id="p3">After Hours Menu</p>
 <ul>
-<li><p>Option 1: Transfer call to operator – AfterHours VmailGroup ext
-600</p></li>
-<li><p>Custom Welcome Greeting: Record and rename file to
-welcome.wav</p></li>
-<li><p>Custom Closed Greeting: Record and rename file to
-closed.wav</p></li>
+<li><p>Option 1: Transfer call to operator – Extension 81-600 (VmailGroup)</p></ul></li>
+</li>
+<li><p id="p3">Business Hours Greetings</p>
+<ul>
+<li><p>Custom Welcome Greeting: Record and rename file to welcome.wav</p></li>
 </ul></li>
+
+<li><p id="p3">After Hours Greetings</p>
+<ul>
+<li><p>Custom Closed Greeting: Record and rename file to closed.wav</p></li>
+</ul></li>
+
 </ul></td>
 </tr>
 </tbody>

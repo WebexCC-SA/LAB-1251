@@ -60,66 +60,87 @@ In this lab, you will learn how to create call queues.
 </colgroup>
 <tbody>
 <tr>
-<td rowspan="2">1.</td>
-<td>Services-&gt; Calling-&gt; Features-&gt; Call Queue-&gt; Manage
--&gt; Add</td>
+<td rowspan="2"><p id="p1">1.</p></td>
+<td><p id="p1">Services-&gt; Calling-&gt; Features-&gt; Call Queue-&gt; Add New</p></td>
 </tr>
 <tr>
-<td><p>During business hours, callers to the San Jose Support and Sales
-departments should be placed on hold until an agent is available.</p>
+<td><p id="p2">During business hours, callers to the San Jose Support and Sales departments should be placed on hold until an agent is available.</p>
 <p>Create a Call Queue</p>
 <ul>
 <li><p>Location: HQ</p></li>
 <li><p>Name: Sales Queue</p></li>
+<li><p>Phone Number: HQ Main Number (taken from Lab02)</p></li>
 <li><p>Extension: 900</p></li>
 <li><p>Number of calls in queue: 15</p></li>
-<li><p>Caller ID: Location number</p></li>
+<li><p>External caller ID phone number: Location number</p></li>
 <li><p>Routing: Priority Based - Longest Idle</p></li>
-<li><p>Overflow: Transfer to Anita Perez after 60 seconds</p></li>
-<li><p>Welcome Message: Mandatory</p>
+<li><p>Overflow Settings: </p>
 <ul>
-<li><p>Custom Welcome Message: Call Recorded, instructor
-provided</p></li>
-</ul></li>
-<li><p>Comfort Message: 20 seconds between messages</p>
+<li><p>Transfer to phone number: Anita Perez Ext 81-101</p></li>
+<li><p>Enable over flow after 60 seconds</p></li>
+</ul>
+</li>
+
+<li><p>Welcome Message:</p>
 <ul>
-<li><p>Custom Comfort Message: Answer Soon, instructor provided</p></li>
+<li><p>Welcome Message is mandatory: Enabled</p></li>
+<li><p>Custom Welcome Message: All-Calls-are-Recorded.wav</p></li>
 </ul></li>
+
+
+<li><p>Comfort Message: Enabled</p>
+<ul>
+<li><p>Time between comfort message: 10 seconds</p></li>
+<li><p>Custom Comfort Message: Default Greeting</p></li>
+</ul></li>
+
+<li><p>Hold Music: Enabled</p>
+<ul>
 <li><p>Hold Music: Play default music</p></li>
+</ul>
+</li>
+
 <li><p>Agents:</p>
 <ul>
 <li><p>Sales1@YourFullName##.com</p></li>
-<li><p><a
-href="mailto:Sales2@YourFullName">Sales2@YourFullName##.com</a></p></li>
+<li><p>Sales2@YourFullName##.com</p></li>
 <li><p>Eric Steele</p></li>
 <li><p>Kellie Melby</p></li>
 </ul></li>
-<li><p>Enable Night Service:</p>
+
+<li><p>Create Queue</p></li>
+<li><p>Select Queue</p></li>
+<li><p>Go to Queue Policies, select Night Service</p>
 <ul>
+<li><p>Enable Night Service:</p></li>
+<li><p>Transfer to Phone number: Extension 81-600 (VmailGroup)</p></li>
 <li><p>Default Greeting</p></li>
-<li><p>Transfer to Phone number 600</p></li>
-<li><p>Open Hours schedule</p></li>
-</ul></li>
-<li><p>Stranded calls: Follow Night Service</p></li>
+<li><p>Business Hours: Open Hours schedule</p></li>
+</ul>
+</li>
+<li><p>Go to Queue Policies, select Stranded Calls</p>
+<ul>
+<li><p>Triger policy when all agents are unreachable: enabled</p></li>
+<li><p>Night Service: selected</p></li>
+</ul>
+</li>
+
 </ul></td>
 </tr>
 
 
 <tr>
-<td rowspan="2">2.</td>
-<td>Services-&gt; Calling-&gt; Features-&gt; Call queue-&gt;
-Supervisors-&gt; Add Supervisor</td>
+<td rowspan="2"><p id="p1">2.</p></td>
+<td><p id="p1">Services-&gt; Calling-&gt; Features-&gt; Call queue-&gt;Supervisors-&gt; Add Supervisor</p></td>
 </tr>
 <tr>
-<td><p>the supervisor needs to silently monitor agents in their
-respective queues</p>
+<td><p id="p2">The supervisor needs to silently monitor agents in their respective queues</p>
 <ul>
 <li><p>Supervisor: Charles Holland</p></li>
 <li><p>Agents:</p>
 <ul>
 <li><p>Sales1@YourFullName##.com</p></li>
-<li><p><a
-href="mailto:Sales2@YourFullName">Sales2@YourFullName##.com</a></p></li>
+<li><p>Sales2@YourFullName##.com</p></li>
 <li><p>Eric Steele</p></li>
 <li><p>Kellie Melby</p></li>
 </ul></li>

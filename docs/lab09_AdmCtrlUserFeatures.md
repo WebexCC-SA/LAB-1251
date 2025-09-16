@@ -60,51 +60,42 @@ In this lab, you will learn to configure admin-controlled user features.
 </colgroup>
 <tbody>
 <tr>
-<td rowspan="2">1.</td>
-<td>Management-&gt; Users-&gt; Rebekah Barretta-&gt; Calling-&gt;
-Calling handling -&gt; Mode management</td>
+<td rowspan="2"><p id="p1">1.</p></td>
+<td><p id="p1">Management-&gt; Users-&gt; Rebekah Barretta-&gt; Calling-&gt; Calling handling -&gt; Mode management</p></td>
 </tr>
 <tr>
-<td><p>Rebekah Barretta needs to change the Product Development HQ to
-ToVmail operating mode as needed</p>
+<td><p id="p2">Rebekah Barretta needs access to change the Product Development Hunt Group’s operating mode to ensure calls are properly routed when all agents are unexpectedly unavailable.</p>
 <p>Enable mode management for Rebekah Barretta</p>
 <ul>
-<li><p>Add Product Development HQ</p>
-<p><em>Make note of Rebekah’s email address for the next
-lab!</em></p></li>
+<li><p>Add Product Development HG</p>
+<p><em>Take note of Rebekah’s email address for the next lab!</em></p></li>
 </ul></td>
 </tr>
 
 
 <tr>
-<td rowspan="2">2.</td>
-<td>Management-&gt; Users-&gt; Anita Perez-&gt; Calling-&gt;
-Between-user permissions-&gt; Monitoring</td>
+<td rowspan="2"><p id="p1">2.</p></td>
+<td><p id="p1">Management-&gt; Users-&gt; Anita Perez-&gt; Calling-&gt; Between-user permissions-&gt; Monitoring</p></td>
 </tr>
 <tr>
-<td><p>Anita Perez requires the ability to monitor the lines all sales
-employees</p>
+<td><p id="p2">Anita Perez needs to quickly identify and answer calls on monitored lines to improve response times and customer service</p>
 <p>Add monitored lines to Anita Perez’s profile</p>
 <ul>
 <li><p>Users:</p>
 <ul>
 <li><p>Sales1@YourFullName##.com</p></li>
-<li><p><a
-href="mailto:Sales2@YourFullName">Sales2@YourFullName##.com</a></p></li>
+<li><p>Sales2@YourFullName##.com</p></li>
 <li><p>Eric Steele</p></li>
 <li><p>Kellie Melby</p></li>
 </ul></li>
 </ul></td>
 </tr>
 <tr>
-<td rowspan="2">3.</td>
-<td>Management-&gt; Users-&gt; Anita Perez-&gt; Calling-&gt;
-Between-user permissions -&gt; Hotdesking</td>
+<td rowspan="2"><p id="p1">3.</p></td>
+<td><p id="p1">Management-&gt; Users-&gt; Anita Perez-&gt; Calling-&gt; Between-user permissions -&gt; Hotdesking</p></td>
 </tr>
 <tr>
-<td><p>Anita Perez needs to use a line with a Houston phone number
-(virtual line created in Lab 6) when using the Hotdesking feature</p>
-<p>Add virtual line to Anita Perez’s profile</p>
+<td><p id="p2">Anita Perez needs the Houston virtual phone number added to her Hotdesking profile to appear local to Houston clients while working at a temporary desk</p>
 <ul>
 <li><p>Add: Extra Line1</p></li>
 </ul></td>
