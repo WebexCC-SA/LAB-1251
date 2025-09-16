@@ -1,5 +1,14 @@
-# Lab topologies
+# Paw Pet Supply Diagrams
+
+## Departments and distribution
 
 <figure markdown>
-  ![ACI](./assets/aci.png)
+  ![PPS](./assets/PawPetSupplySolutionsDepartments.png)
+</figure>
+
+
+## Desired Call Flow
+
+<figure markdown>
+  ![PPS](./assets/CallFlow.png)
 </figure>

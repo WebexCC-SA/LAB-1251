@@ -99,7 +99,7 @@ nav:
       - Lab 9 - User Features: lab09_AdmCtrlUserFeatures.md
       - Lab 10 - User Hub: lab10_UserHub.md
       - Conclusion: conclusion.md
- # - Topologies: topologies.md
+  - Diagrams: topologies.md
  # - How to use this guide:
  #     - Setting up and using the tool:
  #       - Initial Setup: howToUse/initialSetup.md

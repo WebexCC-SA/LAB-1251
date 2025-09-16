@@ -10,7 +10,8 @@ This guide is structured into multiple labs, each focusing on a specific aspect 
 - Access URLs and Login
 
     * Use specified URLs (e.g., [admin.webex.com](https://admin.webex.com)) for portals
-    * Instructor-provided login credentials
+    * Download the [Login Credential file](assets/Wx1_WxC_StudentCredentials.xlsx), you will be asigned a student number
+    * All users have the same password
     * Ensure correct login for each task
     * Green text = Online navigation for the portal in use
 
@@ -52,10 +53,10 @@ Although the lab design and configuration examples could be used as a reference,
 
 ## Lab Access
 
-From your workstation open an RDP (Remote Desktop) session to the following host named "wkst1":
+Use your browser to access Control Hub  [admin.webex.com](https://admin.webex.com) as well as the User Portal [user.webex.com](https://user.webex.com)
 
-- IP: 1.2.3.4
-- Username: corp\demouser
-- Password: C1sco12345
+- [Login Credential file](assets/Wx1_WxC_StudentCredentials.xlsx)
+- Use your student number to locate your admin user
+- All users in your organization have the same password
 
 
