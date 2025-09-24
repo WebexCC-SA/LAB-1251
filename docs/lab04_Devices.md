@@ -85,10 +85,10 @@ Phones</p></td>
 <tr>
 <td><p id="p2">All users have a Cisco 8800 series phone</p>
 <ul>
-<p>Use the "Add device sample template" in Control Hub to bulk add devices to the users. </p>
+<p>Use the "Add device sample template" from Control Hub to bulk add devices to the users. </p>
 <li><p>Download "Add device sample template"</p></li>
 <li><p>Download "Users in my organization"</p></li>
-<li><p>Copy all email adresses except for Anita PerezGet Username from the "Users in my organization" template. </p> </li>
+<li><p>Copy all email adresses except for Anita Perez. Get Username from the "Users in my organization" template. </p> </li>
 <li>
 <p>Use the "Add device sample template" to assign devices to users in bulk. Fill only the indicated columns, leave the rest blank.</p>
 <ul>

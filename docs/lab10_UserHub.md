@@ -74,7 +74,13 @@ closes unexpectedly or there is a company-wide meeting.</p>
 <ul>
 <li><p>ToVmail</p></li>
 </ul></li>
-<li><p>Switch back</p></li>
+<li><p>Switch back</p>
+<ul>
+<li><p>Click on the name of the HG</p></li>
+<li><p>Revert to normal</p></li>
+<li><p>Cancel and revert to standard</p></li>
+</ul>
+</li>
 </ul></li>
 </ul></td>
 </tr>

@@ -74,8 +74,7 @@ In this lab, you will learn how to navigate and configure organization settings 
 
 <tr>
 <td rowspan="2" ><p id="p1">2.</p></td>
-<td><p id="p1">Services-&gt; Calling-&gt; Service settings-&gt; Internal
-dialing-&gt; Edit </p></td>
+<td><p id="p1">Services-&gt; Calling-&gt; Settings-&gt; Service-&gt; Internal dialing-&gt; Edit </p></td>
 </tr>
 <tr>
 <td><p id="p2">All location extensions are mirror images of each other</p>
@@ -92,7 +91,7 @@ dialing-&gt; Edit </p></td>
 
 <tr>
 <td rowspan="2"><p id="p1">3.</p></td>
-<td><p id="p1">Services-&gt; Calling-&gt; Service settings-&gt; Voicemail</p></td>
+<td><p id="p1">Services-&gt; Calling-&gt; Settings-&gt; Service-&gt; Voicemail</p></td>
 </tr>
 <tr>
 <td><p id="p2">A default passcode is required for new voicemail users</p>
@@ -104,7 +103,7 @@ organization</p>
 </tr>
 <tr>
 <td rowspan="2"><p id="p1">4.</p></td>
-<td><p id="p1">Services-&gt; Calling-&gt; Service settings-&gt; Call Recording</p></td>
+<td><p id="p1">Services-&gt; Calling-&gt; Settings-&gt; Service-&gt; Call Recording</p></td>
 </tr>
 <tr>
 <td><p id="p2">Webex is the preferred calling vendor</p>

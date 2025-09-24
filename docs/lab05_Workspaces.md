@@ -67,7 +67,7 @@ In this lab, you will learn how to create workspaces, assign devices to workspac
 </tr>
 <tr>
 <td><p id="p2">Paw Pet Supply Solutions has 4 shared use areas in which they need to hold meetings and make and receive calls</p>
-<p>Add the workspaces with the corresponding devices and services</p>
+<p>Add the workspaces with the corresponding devices and services. Devices will be added using activation code.</p>
 </td>
 </tr>
 <tr>
@@ -83,8 +83,8 @@ In this lab, you will learn how to create workspaces, assign devices to workspac
 <tdead>
 <tr>
 <td>Workspace name</td>
-<td>Location</td>
 <td>Type</td>
+<td>Location</td>
 <td>Device</td>
 <td>Services</td>
 <td>Extension</td>
@@ -93,8 +93,8 @@ In this lab, you will learn how to create workspaces, assign devices to workspac
 <tbody>
 <tr>
 <td>SharedCubicle1</td>
-<td>HQ</td>
 <td>Desk</td>
+<td>HQ</td>
 <td>Cisco Managed Device: Cisco 8865</td>
 <td><p>Cisco Webex Calling</p>
 <p>Common area workspace</p></td>
@@ -102,18 +102,18 @@ In this lab, you will learn how to create workspaces, assign devices to workspac
 </tr>
 <tr>
 <td>SharedCubicle2</td>
-<td>HQ</td>
 <td>Desk</td>
+<td>HQ</td>
 <td>Cisco Managed Device: Cisco 8865</td>
 <td><p>Cisco Webex Calling</p>
 <p>Common area workspace</p></td>
-<td>201</td>
+<td>202</td>
 </tr>
 
 <tr>
 <td>Conference Room1</td>
-<td>HQ</td>
 <td>Meeting Room</td>
+<td>HQ</td>
 <td>Cisco Room and Desk device</td>
 <td>Cisco Webex Calling Professional workspace</td>
 <td>300</td>
@@ -122,9 +122,9 @@ In this lab, you will learn how to create workspaces, assign devices to workspac
 <tr>
 </tr>
 <tr>
-<td>Conference Room1</td>
-<td>Factory</td>
+<td>Conference Room2</td>
 <td>Meeting Room</td>
+<td>Factory</td>
 <td>Cisco Room and Desk device</td>
 <td>Cisco Webex Calling Professional workspace</td>
 <td>300</td>

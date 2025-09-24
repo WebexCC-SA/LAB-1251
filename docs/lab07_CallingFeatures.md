@@ -161,8 +161,8 @@ when other team members in the same location are unavailable.</p>
 <ul>
 <li><p>Level: Organization</p></li>
 <li><p>Name: ToMode</p></li>
-<li><p>Forward destination: Ext 600 (AfterHours VmailGroup)</p></li>
 <li><p>Schedule: None</p></li>
+<li><p>Forward destination: Ext 600 (AfterHours VmailGroup)</p></li>
 </ul></td>
 </tr>
 <tr>
@@ -207,7 +207,8 @@ Add New</p></td>
 <ul>
 <li><p>Upload</p></li>
 <li><p>Location: Organization</p></li>
-<li><p>Download <a href="https://webexcc-sa.github.io/LAB-1251/assets/All-Calls-are-Recorded.wav">All-Calls-are-Recorded.wav</a></p></li>
+<li><p>Label: All Calls are Recorded</p></li>
+<li><p>Download <a href="https://webexcc-sa.github.io/LAB-1251/assets/All-Calls-are-Recorded.wav" download>All-Calls-are-Recorded.wav</a></p></li>
 <li><p>Upload: All-Calls-are-Recorded.wav</p></li>
 </ul>
 

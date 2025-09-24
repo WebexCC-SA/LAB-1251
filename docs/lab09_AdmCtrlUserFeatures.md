@@ -97,7 +97,7 @@ In this lab, you will learn to configure admin-controlled user features.
 <tr>
 <td><p id="p2">Anita Perez needs the Houston virtual phone number added to her Hotdesking profile to appear local to Houston clients while working at a temporary desk</p>
 <ul>
-<li><p>Add: Extra Line1</p></li>
+<li><p>Add: Houston Cust Line1</p></li>
 </ul></td>
 </tr>
 </tbody>

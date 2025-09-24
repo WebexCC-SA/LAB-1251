@@ -89,14 +89,14 @@ manually</p></td>
 <li><p>Time zone: Chicago</p></li>
 <li><p>Country – USA</p></li>
 <li><p>Language – English</p></li>
-<li><p>Click “Set up calling” after creating your location and then
-close the PSTN connection window.You will set up the PSTN connection in another step</p></li>
-</ul></td>
+</ul>
+<p>In your new Factory location go to Calling and click “Set up calling” after creating your location and then
+close the PSTN connection window, on Cancel, or the x button.You will set up the PSTN connection in another step</p>
+</td>
 </tr>
 <tr>
 <td rowspan="2"><p id="p1">3.</p></td>
-<td><p id="p1">Management-&gt; Locations-&gt; Select location-&gt; Calling-&gt;
-PSTN connection</p></td>
+<td><p id="p1">Management-&gt; Locations-&gt; Select location-&gt; PSTN-&gt;PSTN Configuration-&gt;PSTN connection-&gt;Manage</p></td>
 </tr>
 <tr>
 <td><p id="p2">HQ and Factory will use the Cisco Calling Plan</p>
@@ -109,6 +109,7 @@ address</p></li>
 <li><p>Services Address: HQ location address (already entered)</p></li>
 <li><p>Authorized Contact: Your name</p></li>
 <li><p>Job title: Admin</p></li>
+<li><p>Click on done (add numbers later)</p></li>
 </ul>
 <p>Repeat steps for Factory location</p>
 </td>
@@ -116,16 +117,16 @@ address</p></li>
 </tr>
 <tr>
 <td rowspan="2"><p id="p1">4.</p></td>
-<td><p id="p1">Services-&gt; Calling-&gt; Numbers-&gt; Manage-&gt; Add</p></td>
+<td><p id="p1">Services-&gt; PSTN & Routing-&gt; Numbers-&gt; Add numbers</p></td>
 </tr>
 <tr>
 <td><p id="p2">Each location needs 10 numbers</p>
-<p>Add Numbers</p>
+<p>Order and add Numbers</p>
 <ul>
 <li><p>Location: HQ</p></li>
 <li><p>Number Type: PSTN</p></li>
 <li><p>Select an Area Code from the list</p></li>
-<li><p>Select 10 numbers</p></li>
+<li><p>Order 10 numbers</p></li>
 <li><p>Click view orders</p></li>
 <li><p>Click on the pending order to automatically change the status to
 provisioned</p></li>
@@ -135,13 +136,12 @@ provisioned</p></li>
 </tr>
 <tr>
 <td rowspan="2"><p id="p1">5.</p></td>
-<td><p id="p1">Management-&gt; Locations-&gt; Select location -&gt; Calling-&gt;
-Calling Connection-&gt; Main number</p></td>
+<td><p id="p1">Management-&gt; Locations-&gt; Select location -&gt; PSTN-&gt; PSTN Configuration-&gt; Main number</p></td>
 </tr>
 <tr>
 <td><p id="p2">To make and receive calls each location needs a main number. Each
 location must present their own main number as their caller id.</p>
-<p>Assign a main number to each location</p>
+<p>Assign a main number to HQ and Factory locations</p>
 <ul>
 <li><p>Select any of the available numbers</p></li>
 

@@ -76,7 +76,7 @@ In this lab, you will learn how to create call queues.
 <li><p>Routing: Priority Based - Longest Idle</p></li>
 <li><p>Overflow Settings: </p>
 <ul>
-<li><p>Transfer to phone number: Anita Perez Ext 81-101</p></li>
+<li><p>Transfer to phone number: Extension 81-600 AfterHours VmailGroup</p></li>
 <li><p>Enable over flow after 60 seconds</p></li>
 </ul>
 </li>
