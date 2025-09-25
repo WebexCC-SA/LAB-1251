@@ -41,7 +41,7 @@ In this lab, learn how to assign devices to users.
 
 - Paw Pet Supply Solutions desire their telephone system configured in a certain way: 
 
-    * All users wants to have an Cisco 8865 phone, that can be activated with a code
+    * All users wants to have an MPP phone, and will be activated through activation codes
 
 
 ## Login Credentials
@@ -72,12 +72,13 @@ In this lab, learn how to assign devices to users.
 </tr>
 
 <tr>
-<td><p id="p2">Anita Perez needs a 8865 phone</p>
+<td><p id="p2">Anita Perez needs a 9861 phone</p>
 
 <p>Assign devices to users manually or in bulk</p>
 <ul>
 <li><p>Activation method: Activation Code</p></li>
-<li><p>Model: Cisco 8865</p></li>
+<li><p>Model: Cisco 9861 (it's the fancy pone on your desk!)</p></li>
+<li><p>Enter the activation code on your phone</p></li>
 </ul></td>
 </tr>
 
@@ -88,7 +89,7 @@ Phones</p></td>
 </tr>
 
 <tr>
-<td><p id="p2">All users have a Cisco 8800 series phone</p>
+<td><p id="p2">The rest of the users have a Cisco 8800 series phone</p>
 <ul>
 <p>Use the "Add device sample template" from Control Hub to bulk add devices to the users. </p>
 <li><p>Download "Add device sample template"</p></li>

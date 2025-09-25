@@ -111,7 +111,7 @@ In this lab, you will learn how to create workspaces, assign devices to workspac
 <td>SharedCubicle2</td>
 <td>Desk</td>
 <td>HQ</td>
-<td>Cisco Managed Device: Cisco 8865</td>
+<td>Cisco Managed Device: Cisco 88xx or 78xx(in your desk! activate it)</td>
 <td><p>Cisco Webex Calling</p>
 <p>Common area workspace</p></td>
 <td>202</td>
