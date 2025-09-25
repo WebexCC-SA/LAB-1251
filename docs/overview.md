@@ -31,6 +31,11 @@ This lab guide provides step-by-step instructions for configuring Webex Calling 
     - Committed to animal well-being and customer satisfaction. 
     - Aims to be a trusted partner for pet parents.
 
+<figure markdown>
+  ![PPS](./assets/pawpetsupplydescription.png)
+</figure>
+
+
 ## Setup and Requirements
 - Locations: HQ in California, Factory in Texas
 - Communication Platform: Webex Calling with Cisco Calling Plan as PSTN solution
