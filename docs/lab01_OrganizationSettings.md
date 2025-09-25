@@ -39,6 +39,14 @@
 
 In this lab, you will learn how to navigate and configure organization settings for Webex Calling.
 
+- Paw Pet Supply Solutions desire their telephone system configured in a certain way: 
+
+    * Control Hub Configuration easy, with a longer timeout
+    * Extensions with the XX-XXX format, with mirrowed extensions
+    * Default passcode for voicemail
+    * Call Recording with Webex
+
+
 ## Login Credentials
 
 <table>
