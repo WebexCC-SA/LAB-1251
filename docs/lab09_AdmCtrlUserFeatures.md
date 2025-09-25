@@ -38,6 +38,13 @@
 
 In this lab, you will learn to configure admin-controlled user features.
 
+- Paw Pet Supply Solutions desire their telephone system configured in a certain way: 
+
+    * Rebekah needs to activate the operation mode in the Product Development HG
+    * Anita monitor Eric, Kellie and Sales users.
+    * Anita when booking using Hotdesking need a number from the Factory Location
+
+
 ## Login Credentials
 
 <table>

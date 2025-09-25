@@ -39,6 +39,10 @@
 
 In this lab, you will learn how to create users, assign licenses, and assign extensions to users manually and in bulk.
 
+- Paw Pet Supply Solutions desire their telephone system configured in a certain way: 
+
+    * 16 users with webex calling professional license distributed in both locations
+
 ## Login Credentials
 
 <table>

@@ -39,6 +39,11 @@
 
 In this lab, learn how to assign devices to users.
 
+- Paw Pet Supply Solutions desire their telephone system configured in a certain way: 
+
+    * All users wants to have an Cisco 8865 phone, that can be activated with a code
+
+
 ## Login Credentials
 
 <table>

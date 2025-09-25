@@ -38,6 +38,16 @@
 
 In this lab, you will learn how to create virtual extensions, call park extensions, and call park groups.
 
+- Paw Pet Supply Solutions desire their telephone system configured in a certain way: 
+
+    * Call Park Group configured with call park extensions
+    * Call Pickup
+    * A way to bring anouncements with a Paging Group
+    * After Hours Voicemail Group
+    * A way for Rebekah to route the calls to the Product Development department to voicemail at will
+    * Marketing and Product Development departments need their own extension
+    * Factory main number routed to an IVR
+
 ## Login Credentials
 
 <table>

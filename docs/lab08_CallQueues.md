@@ -38,6 +38,14 @@
 
 In this lab, you will learn how to create call queues.
 
+- Paw Pet Supply Solutions desire their telephone system configured in a certain way: 
+
+    * HQ main number routed to a Sales Queue, with welcome message, confort message and music on hold.
+    * This number at night is routed to the After Hours Voicemail Group
+    * When there is more than 15 callers inside the queue, route calls to the voicemail group
+    * If all agents are not available, or unreachable send calls to Voicemail Group
+    * Charles Holland may need to supervise agents
+
 ## Login Credentials
 
 <table>

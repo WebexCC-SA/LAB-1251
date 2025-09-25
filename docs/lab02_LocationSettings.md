@@ -39,6 +39,14 @@
 
 In this lab, you will learn how to add locations.
 
+- Paw Pet Supply Solutions desire their telephone system configured in a certain way: 
+
+    * There is 2 locations: HQ and Factory
+    * Cisco Calling Plan is used as PSTN for both locations
+    * 10 numbers ordered for each location
+    * Prefixes for the extension will be: HQ 81 and Factory 82
+    * Open Hours defined per location to be used for users, and calling features
+
 ## Login Credentials
 
 <table>

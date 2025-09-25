@@ -38,6 +38,11 @@
 
 In this lab, you will learn how users can configure calling settings in User Hub.
 
+- Paw Pet Supply Solutions desire their telephone system configured in a certain way: 
+
+    * Rebekah wants to activate the Operation mode
+    * Rebekah wants to book the SharedCublicle2 phone.
+
 ## Login Credentials
 
 <table>

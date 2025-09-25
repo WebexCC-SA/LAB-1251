@@ -42,7 +42,7 @@ In this lab, you will learn how to navigate and configure organization settings 
 - Paw Pet Supply Solutions desire their telephone system configured in a certain way: 
 
     * Control Hub Configuration easy, with a longer timeout
-    * Extensions with the XX-XXX format, with mirrowed extensions
+    * Extensions with the XX-XXX format, with mirrored extensions
     * Default passcode for voicemail
     * Call Recording with Webex
 

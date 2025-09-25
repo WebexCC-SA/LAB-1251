@@ -38,6 +38,13 @@
 
 In this lab, you will learn how to create workspaces, assign devices to workspaces, and enable hoteling and hotdesking on workspace devices.
 
+- Paw Pet Supply Solutions desire their telephone system configured in a certain way: 
+
+    * There is 4 areas that need devices:
+    * 2 Share Cubicle areas that can be booked by any user, with Cisco 8865 MPP phones.
+    * One Meeting room per location, that need a Cisco Room device, and may need to install MPP phones in the future.
+
+
 ## Login Credentials
 
 <table>

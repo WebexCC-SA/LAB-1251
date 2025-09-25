@@ -38,6 +38,10 @@
 
 Learn how to create virtual lines and assign them as shared line appearances.
 
+- Paw Pet Supply Solutions desire their telephone system configured in a certain way: 
+
+    * Eric and Kelly need to call and receive calls from a number from a different location.
+
 ## Login Credentials
 
 <table>
