@@ -78,7 +78,7 @@ In this lab, learn how to assign devices to users.
 <ul>
 <li><p>Activation method: Activation Code</p></li>
 <li><p>Model: Cisco 9861 (it's the fancy pone on your desk!)</p></li>
-<li><p>Enter the activation code on your phone</p></li>
+<li><p>Enter the activation code</p></li>
 </ul></td>
 </tr>
 
