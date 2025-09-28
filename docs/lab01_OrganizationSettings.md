@@ -77,7 +77,9 @@ In this lab, you will learn how to navigate and configure organization settings 
 <td><p id="p2">You do not want to be logged out of Control Hub every 20 minutes</p>
 <ul>
 <li><p>Change the timeout to 12 hours</p></li>
-</ul></td>
+</ul>
+<p class="right-aligned"><a href="https://help.webex.com/en-us/article/nl4m0jo/Configure-Idle-Session-Timeout-for-Control-Hub-Users">Webex Help Article</a></p>
+</td>
 </tr>
 
 <tr>
