@@ -130,8 +130,9 @@ organization</p>
 </tr>
 <tr>
 <td><p id="p2">Webex is the preferred calling vendor</p>
-<p>Set Webex as the call recording provider</p></td>
+<p>Set Webex as the call recording provider</p>
 <a text-align="right" href="https://help.webex.com/en-us/article/ilga4/Manage-call-recording-for-Webex-Calling"><p id="p5">Webex Help Article</p></a>
+</td>
 
 </tr>
 </tbody>
