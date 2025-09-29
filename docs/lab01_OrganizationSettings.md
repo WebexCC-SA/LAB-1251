@@ -27,6 +27,13 @@
     font-size: 30px;
     }
 
+  #p5 {
+    color: blue;
+    font-weight: bold;
+    text-align: right;
+    font-size: 35px;
+    }
+
   .container {
   text-align: center;
   }
@@ -78,7 +85,7 @@ In this lab, you will learn how to navigate and configure organization settings 
 <ul>
 <li><p>Change the timeout to 12 hours</p></li>
 </ul>
-<a text-align="right" href="https://help.webex.com/en-us/article/nl4m0jo/Configure-Idle-Session-Timeout-for-Control-Hub-Users">Webex Help Article</a>
+<a text-align="right" href="https://help.webex.com/en-us/article/nl4m0jo/Configure-Idle-Session-Timeout-for-Control-Hub-Users"><p id="p5">Webex Help Article</p></a>
 </td>
 </tr>
 
