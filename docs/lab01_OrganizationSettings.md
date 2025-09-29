@@ -28,7 +28,7 @@
     }
 
   #p5 {
-    color: #4169E1;
+    color: #6495ED;
     font-weight: bold;
     text-align: right;
     }
