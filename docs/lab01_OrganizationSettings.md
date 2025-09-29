@@ -31,7 +31,6 @@
     color: blue;
     font-weight: bold;
     text-align: right;
-    font-size: 35px;
     }
 
   .container {
