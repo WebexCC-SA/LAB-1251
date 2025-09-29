@@ -28,7 +28,7 @@
     }
 
   #p5 {
-    color: blue;
+    color: #4169E1;
     font-weight: bold;
     text-align: right;
     }
@@ -99,7 +99,10 @@ In this lab, you will learn how to navigate and configure organization settings 
 <li><p>Routing prefix length: 2</p></li>
 <li><p>Steering digit: 8</p></li>
 <li><p>Extension length: 3</p></li>
-</ul></td>
+</ul>
+<a text-align="right" href="https://help.webex.com/en-us/article/pxtu15/Configure-your-Webex-Calling-dial-plan"><p id="p5">Webex Help Article</p></a>
+
+</td>
 </tr>
 
 
@@ -115,8 +118,12 @@ In this lab, you will learn how to navigate and configure organization settings 
 organization</p>
 <ul>
 <li><p>Default Passcode: 258011</p></li>
-</ul></td>
+</ul>
+<a text-align="right" href="https://help.webex.com/en-us/article/nojp8ej/Configure-voice-portals-for-Webex-Calling-in-Control-Hub"><p id="p5">Webex Help Article</p></a>
+</td>
 </tr>
+
+
 <tr>
 <td rowspan="2"><p id="p1">4.</p></td>
 <td><p id="p1">Services-&gt; Calling-&gt; Settings-&gt; Service-&gt; Call Recording</p></td>
@@ -124,6 +131,8 @@ organization</p>
 <tr>
 <td><p id="p2">Webex is the preferred calling vendor</p>
 <p>Set Webex as the call recording provider</p></td>
+<a text-align="right" href="https://help.webex.com/en-us/article/ilga4/Manage-call-recording-for-Webex-Calling"><p id="p5">Webex Help Article</p></a>
+
 </tr>
 </tbody>
 </table>
