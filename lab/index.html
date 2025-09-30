@@ -1,0 +1,1912 @@
+<!DOCTYPE html><html lang="en" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Leveling up communication: A follow-along Webex Calling lab">
+      
+      
+        <meta name="author" content="Susan Parrish">
+      
+      
+      
+      
+      
+      <link rel="icon" href="../template_assets/webex75.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.20">
+    
+    
+      
+        <title>Lab - LAB-1251: Leveling up communication: A follow-along Webex Calling lab</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.e53b48f4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#table-of-contents" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="LAB-1251: Leveling up communication: A follow-along Webex Calling lab" class="md-header__button md-logo" aria-label="LAB-1251: Leveling up communication: A follow-along Webex Calling lab" data-md-component="logo">
+      
+  <img src="../template_assets/webexLogo91.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            LAB-1251: Leveling up communication: A follow-along Webex Calling lab
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Lab
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="indigo" aria-label="Switch to dark mode" type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="indigo" aria-label="Switch to light mode" type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../overview/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Lab
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../topologies/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Diagrams
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="LAB-1251: Leveling up communication: A follow-along Webex Calling lab" class="md-nav__button md-logo" aria-label="LAB-1251: Leveling up communication: A follow-along Webex Calling lab" data-md-component="logo">
+      
+  <img src="../template_assets/webexLogo91.png" alt="logo">
+
+    </a>
+    LAB-1251: Leveling up communication: A follow-along Webex Calling lab
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2">
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Lab
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Lab
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab01_OrganizationSettings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lab 1 - Organization Settings
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab02_LocationSettings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lab 2 - Location Settings
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab03_Users/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lab 3 - Users
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab04_Devices/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lab 4 - Devices
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab05_Workspaces/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lab 5 - Workspaces
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab06_VirtualLines/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lab 6 - Virtual and Shared Lines
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab07_CallingFeatures/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lab 7 - Calling Features
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab08_CallQueues/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lab 8 - Call Queues
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab09_AdmCtrlUserFeatures/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lab 9 - User Features
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab10_UserHub/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lab 10 - User Hub
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../congratulations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Congratulations &amp; Challenge
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../topologies/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Diagrams
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<p>LAB–1251</p>
+<p>Leveling up communication: A follow-along Webex Calling lab​</p>
+<p>This hands-on lab provides experience in Webex Calling. Complete
+practical exercises such as configuring local gateways, using features,
+and managing call routing through Webex Control Hub. Learn to handle
+calls efficiently, explore mid-call functions, and understand call flow
+management in a simulated environment. The lab enhances skills in
+managing communication systems and optimizes telephony infrastructure
+for improved organizational communication.</p>
+<h1 id="table-of-contents">Table of Contents</h1>
+<p><a href="#lab-guide-getting-started">Lab Guide: Getting started
+[4](#lab-guide-getting-started)</a></p>
+<p><a href="#customer-scenario">Customer Scenario [4](#customer-scenario)</a></p>
+<p><a href="#lab-1-organization-settings">Lab 1 – Organization Settings
+[5](#lab-1-organization-settings)</a></p>
+<p><a href="#lab-2-location-settings">Lab 2 – Location Settings
+[6](#lab-2-location-settings)</a></p>
+<p><a href="#lab-3-users">Lab 3 – Users [9](#lab-3-users)</a></p>
+<p><a href="#lab-4-devices">Lab 4 – Devices [11](#lab-4-devices)</a></p>
+<p><a href="#lab-5-workspaces">Lab 5 – Workspaces [12](#lab-5-workspaces)</a></p>
+<p><a href="#lab-6-virtual-and-shared-lines">Lab 6 – Virtual and shared lines
+[14](#lab-6-virtual-and-shared-lines)</a></p>
+<p><a href="#lab-7-configuring-calling-features">Lab 7 – Configuring Calling features
+[15](#lab-7-configuring-calling-features)</a></p>
+<p><a href="#lab-8-creating-call-queues">Lab 8 – Creating Call Queues
+[19](#lab-8-creating-call-queues)</a></p>
+<p><a href="#lab-9-admin-controlled-user-features">Lab 9 – Admin-controlled user features
+[21](#lab-9-admin-controlled-user-features)</a></p>
+<p><a href="#lab-10-configurations-in-user-hub">Lab 10 – Configurations in User Hub
+[22](#lab-10-configurations-in-user-hub)</a></p>
+<h1 id="lab-guide-getting-started">Lab Guide: Getting started</h1>
+<p>This guide is structured into multiple labs, each focusing on a specific
+aspect of Webex Calling configuration. To successfully complete the
+exercises:</p>
+<ul>
+<li>
+<p>Follow Steps Sequentially</p>
+</li>
+<li>
+<p>Numbered steps must be followed precisely</p>
+</li>
+<li>
+<p>If a setting in Control Hub is not listed in the task instructions,
+    leave default settings or skip</p>
+</li>
+<li>
+<p>Access URLs and Login</p>
+</li>
+<li>
+<p>Use specified URLs (e.g., `admin.webex.com`) for portals</p>
+</li>
+<li>
+<p>Instructor-provided login credentials</p>
+</li>
+<li>
+<p>Ensure correct login for each task</p>
+</li>
+<li>
+<p>Green text = Online navigation for the portal in use</p>
+</li>
+<li>
+<p>End of each lab section marked by "STOP – END OF LAB”</p>
+</li>
+<li>
+<p>Wait for further instruction before moving forward</p>
+</li>
+</ul>
+<h2 id="customer-scenario">Customer Scenario</h2>
+<p>This lab guide provides step-by-step instructions for configuring Webex
+Calling to meet the business needs of our fictional customer, Paw Pet
+Supply Solutions, who are new to the platform.</p>
+<h4 id="company-profile">Company Profile</h4>
+<ul>
+<li>
+<p>Paw Pet Supply Solutions is an emerging leader in the pet supply
+  industry</p>
+</li>
+<li>
+<p>Provides high-quality, innovative products for pet care</p>
+</li>
+<li>
+<p>Committed to animal well-being and customer satisfaction</p>
+</li>
+<li>
+<p>Aims to be a trusted partner for pet parents</p>
+</li>
+</ul>
+<h4 id="setup-and-requirements">Setup and Requirements</h4>
+<ul>
+<li>
+<p>Locations: HQ in California, Factory in Texas</p>
+</li>
+<li>
+<p>Communication Platform: Webex Calling with Cisco Calling Plan as PSTN
+  solution</p>
+</li>
+<li>
+<p>Departments: Marketing, Sales, Product Development</p>
+</li>
+<li>
+<p>Numbers: Main number for Sales, Auto Attendant for Marketing and
+  Product Development</p>
+</li>
+<li>
+<p>Business Hours: 9 am – 5 pm, voicemail after hours</p>
+</li>
+<li>
+<p>Sales Department Specifics: Call pickup, call hold for department
+  members, company-wide announcements</p>
+</li>
+<li>
+<p>Product Development Specifics: User-controlled voicemail routing</p>
+</li>
+<li>
+<p>Shared Resources: Shared Cubicles at HQ, Conference rooms with Room
+  Board devices and phones, all employees use MPP phones.</p>
+</li>
+<li>
+<p>Pre-configured Environment: Foundational elements already created for
+  streamlined experience:</p>
+</li>
+<li>
+<p>One location: “dCloud”, to be renamed</p>
+</li>
+<li>
+<p>Eight users: one administrator, seven standard users.</p>
+</li>
+<li>
+<p>All users require Webex Calling licenses</p>
+</li>
+</ul>
+<h1 id="lab-1-organization-settings">Lab 1 – Organization Settings</h1>
+<p>In this lab, you will learn how to navigate and configure organization
+settings for Webex Calling.</p>
+<p>URL: <a href="http://admin.webex.com/">admin.webex.com</a> Login: Instructor
+provided credentials: Charles Holland – Webex Administrator</p>
+<table>
+<colgroup>
+<col style="width: 4%">
+<col style="width: 95%">
+</colgroup>
+<thead>
+<tr>
+<th rowspan="2">1.</th>
+<th>Services-&gt; Calling-&gt; Service settings-&gt; Internal
+dialing-&gt; Edit</th>
+</tr>
+<tr>
+<th><p>All location extensions are mirror images of each other</p>
+<p>Enable an internal dialing plan at the organization level</p>
+<ul>
+<li><p>Routing prefix length: 2</p></li>
+<li><p>Steering digit: 8</p></li>
+<li><p>Extension length: 3</p></li>
+</ul></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="2">2.</td>
+<td>Services-&gt; Calling-&gt; Service settings-&gt; Voicemail</td>
+</tr>
+<tr>
+<td><p>A default passcode is required for new voicemail users</p>
+<p>Set a default voicemail passcode for all users in the
+organization</p>
+<ul>
+<li><p>Default Passcode: 258011</p></li>
+</ul></td>
+</tr>
+<tr>
+<td rowspan="2">3.</td>
+<td>Services-&gt; Calling-&gt; Service settings-&gt; Call Recording</td>
+</tr>
+<tr>
+<td><p>Webex is the preferred calling vendor</p>
+<p>Set Webex as the call recording provider</p></td>
+</tr>
+</tbody>
+</table>
+
+<p>STOP - END OF LAB</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="media/image7.svg" data-title="Stop with solid fill" data-desc-position="top"><img src="media/image7.svg" style="width:1.27778in;height:1.27778in" alt="Stop with solid fill"></a></p>
+<h1 id="lab-2-location-settings">Lab 2 – Location Settings</h1>
+<p>In this lab, you will learn how to add locations.</p>
+<p>URL: <a href="http://admin.webex.com/">admin.webex.com</a> Login: Instructor
+provided credentials: Charles Holland – Webex Administrator</p>
+<table>
+<colgroup>
+<col style="width: 4%">
+<col style="width: 95%">
+</colgroup>
+<thead>
+<tr>
+<th rowspan="2">1.</th>
+<th>Management-&gt; Locations-&gt; dCloud-&gt; Location info</th>
+</tr>
+<tr>
+<th><p>San Jose is the headquarters and main location</p>
+<p>Rename dCloud location</p>
+<ul>
+<li><p>Location name: HQ</p></li>
+</ul></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="2">2.</td>
+<td>Management-&gt; Locations-&gt; Manage location-&gt; Create
+manually</td>
+</tr>
+<tr>
+<td><p>Paw Pet Solutions has a factory in Houston, TX.</p>
+<p>Add a location</p>
+<ul>
+<li><p>Location name: Factory</p></li>
+<li><p>Address: 4501 North Main Street, Houston, TX 77009, USA</p></li>
+<li><p>Time zone: Chicago</p></li>
+<li><p>Country – USA</p></li>
+<li><p>Language – English</p></li>
+<li><p>Click “Set up calling” after creating your location and then
+close the PSTN connection window.</p>
+<ul>
+<li><p>You will set up the PSTN connection in another step</p></li>
+</ul></li>
+</ul></td>
+</tr>
+<tr>
+<td rowspan="2">3.</td>
+<td>Management-&gt; Locations-&gt; Select location-&gt; Calling-&gt;
+PSTN connection</td>
+</tr>
+<tr>
+<td><p>HQ and Factory will use the Cisco Calling Plan</p>
+<p>Assign a PSTN Connection to each location</p>
+<ul>
+<li><p>Location: HQ</p></li>
+<li><p>Connection Type: Cisco Calling Plans</p></li>
+<li><p>Contract Information: Your name, Student login email
+address</p></li>
+<li><p>Services Address: HQ location address (already entered)</p></li>
+<li><p>Authorized Contact: Your name</p></li>
+<li><p>Job title: Admin</p>
+<p>Repeat steps for Factory location</p></li>
+</ul></td>
+</tr>
+<tr>
+<td rowspan="2">4.</td>
+<td>Services-&gt; Calling-&gt; Numbers-&gt; Manage-&gt; Add</td>
+</tr>
+<tr>
+<td><p>Each location needs 10 numbers</p>
+<p>Add Numbers</p>
+<ul>
+<li><p>Location: HQ</p></li>
+<li><p>Number Type: PSTN</p></li>
+<li><p>Select an Area Code from the list</p></li>
+<li><p>Select 10 numbers</p></li>
+<li><p>Click view orders</p></li>
+<li><p>Click on the pending order to automatically change the status to
+provisioned</p>
+<p>Repeat steps for Factory location</p></li>
+</ul></td>
+</tr>
+<tr>
+<td rowspan="2">5.</td>
+<td>Management-&gt; Locations-&gt; Select location -&gt; Calling-&gt;
+Calling Connection-&gt; Main number</td>
+</tr>
+<tr>
+<td><p>To make and receive calls each location needs a main number. Each
+location must present their own main number as their caller id.</p>
+<p>Assign a main number to each location</p>
+<ul>
+<li><p>Select any of the available numbers</p></li>
+<li><p>You will need to know these numbers in a subsequent lab; make a
+note of which ones you use</p></li>
+</ul></td>
+</tr>
+<tr>
+<td rowspan="2">6.</td>
+<td>Management-&gt; Locations-&gt; Select location -&gt; Calling-&gt;
+Dialing-&gt; Internal dialing</td>
+</tr>
+<tr>
+<td><p>All location extensions are mirror images of each other.</p>
+<p>Add a routing prefix for each location</p>
+<ul>
+<li><p>HQ: 81</p></li>
+<li><p>Factory: 82</p></li>
+</ul></td>
+</tr>
+<tr>
+<td rowspan="2">7.</td>
+<td>Management-&gt; Locations-&gt; Select location -&gt; Calling-&gt;
+Calling feature settings-&gt; Voice portal</td>
+</tr>
+<tr>
+<td><p>All locations need voicemail.</p>
+<p>Configure the voice portal for each location</p>
+<ul>
+<li><p>Extension: 200</p></li>
+<li><p>Voice Portal Admin Passcode: 137041</p></li>
+<li><p>Language: English</p></li>
+</ul></td>
+</tr>
+<tr>
+<td rowspan="2">8.</td>
+<td>Management-&gt; Locations-&gt; Select location -&gt; Calling-&gt;
+Calling feature settings-&gt; Schedules</td>
+</tr>
+<tr>
+<td><p>Calls coming into the main numbers need to route to specific
+options based on the time of day.</p>
+<p>Create a schedule for both locations</p>
+<ul>
+<li><p>Name: Open Hours</p></li>
+<li><p>Schedule Type: Business Hours</p></li>
+<li><p>Monday – Friday 9:00 am – 5 pm</p></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+
+<p>STOP - END OF LAB</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="media/image7.svg" data-title="Stop with solid fill" data-desc-position="top"><img src="media/image7.svg" style="width:1.27778in;height:1.27778in" alt="Stop with solid fill"></a></p>
+<h1 id="lab-3-users">Lab 3 – Users</h1>
+<p>In this lab, you will learn how to create users, assign licenses, and
+assign extensions to users manually and in bulk.</p>
+<p>URL: <a href="http://admin.webex.com/">admin.webex.com</a> Login: Instructor
+provided credentials: Charles Holland – Webex Administrator</p>
+<table>
+<colgroup>
+<col style="width: 4%">
+<col style="width: 95%">
+</colgroup>
+<thead>
+<tr>
+<th rowspan="2">1.</th>
+<th>Management-&gt; Users-&gt; select user</th>
+</tr>
+<tr>
+<th><p>Anita Perez needs a phone number and to use calling features.</p>
+<p>Assign Anita a Calling license and assign a phone number</p>
+<ul>
+<li><p>License: Webex Calling Professional</p></li>
+<li><p>Location: HQ</p></li>
+<li><p>Number: Unused number (not main number of the Location)</p></li>
+<li><p>Extension: 101</p></li>
+</ul></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="2">2.</td>
+<td>Management-&gt; Users-&gt; Manage users-&gt; Add users-&gt; Manually
+add users OR CSV add or edit</td>
+</tr>
+<tr>
+<td><p>There are 16 employees that require extensions for calling.</p>
+<ul>
+<li><p>Use instructor provided Add Users and Devices Template file or
+tables below</p>
+<ul>
+<li><p>YourFullName = Your first and last name</p></li>
+<li><p>## = Instructor provided student number</p></li>
+</ul></li>
+<li><p>Create users for each location manually and/or in bulk</p></li>
+<li><p>Assign a Webex Calling professional license and an extension
+number</p></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<colgroup>
+<col style="width: 53%">
+<col style="width: 20%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr>
+<th>HQ User Emails</th>
+<th>Extensions</th>
+<th>License</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Charles Holland</td>
+<td>102</td>
+<td>Professional</td>
+</tr>
+<tr>
+<td>Eric Steele</td>
+<td>103</td>
+<td>Professional</td>
+</tr>
+<tr>
+<td>Kellie Melby</td>
+<td>104</td>
+<td>Professional</td>
+</tr>
+<tr>
+<td>Sales1@YourFullName##.com</td>
+<td>105</td>
+<td>Professional</td>
+</tr>
+<tr>
+<td>Sales2@YourFullName##.com</td>
+<td>106</td>
+<td>Professional</td>
+</tr>
+<tr>
+<td>Marketing1@YourFullName##.com</td>
+<td>107</td>
+<td>Professional</td>
+</tr>
+<tr>
+<td>Marketing2@YourFullName##.com</td>
+<td>108</td>
+<td>Professional</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<colgroup>
+<col style="width: 53%">
+<col style="width: 20%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr>
+<th>Factory User Emails</th>
+<th>Extensions</th>
+<th>License</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ricardo Filice</td>
+<td>101</td>
+<td>Professional</td>
+</tr>
+<tr>
+<td>Stefan Mauk</td>
+<td>102</td>
+<td>Professional</td>
+</tr>
+<tr>
+<td>Taylor Bard</td>
+<td>103</td>
+<td>Professional</td>
+</tr>
+<tr>
+<td>Rebekah Barretta</td>
+<td>104</td>
+<td>Professional</td>
+</tr>
+<tr>
+<td>ProductDev1@YourFullName##.com</td>
+<td>105</td>
+<td>Professional</td>
+</tr>
+<tr>
+<td>ProductDev 2@YourFullName##.com</td>
+<td>106</td>
+<td>Professional</td>
+</tr>
+<tr>
+<td>ProductDev 3@YourFullName##.com</td>
+<td>107</td>
+<td>Professional</td>
+</tr>
+<tr>
+<td>ProductDev 4@YourFullName##.com</td>
+<td>108</td>
+<td>Professional</td>
+</tr>
+</tbody>
+</table>
+
+<p>STOP - END OF LAB</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="media/image7.svg" data-title="Stop with solid fill" data-desc-position="top"><img src="media/image7.svg" style="width:1.27778in;height:1.27778in" alt="Stop with solid fill"></a></p>
+<h1 id="lab-4-devices">Lab 4 – Devices</h1>
+<p>In this lab, learn how to assign devices to users.</p>
+<p>URL: <a href="http://admin.webex.com/">admin.webex.com</a> Login: Instructor
+provided credentials: Charles Holland – Webex Administrator</p>
+<table>
+<colgroup>
+<col style="width: 4%">
+<col style="width: 95%">
+</colgroup>
+<thead>
+<tr>
+<th rowspan="2">1.</th>
+<th>Devices-&gt; Add device-&gt; Personal Usage OR Multiple Cisco IP
+Phones</th>
+</tr>
+<tr>
+<th><p>All users have a Cisco <mark>8800</mark> series phone</p>
+<ul>
+<li><p>Use instructor provided Add Users and Devices Template file or
+tables below</p>
+<ul>
+<li><p>Assign devices to users manually or in bulk</p></li>
+</ul></li>
+<li><p>Activation method: Activation Code</p></li>
+<li><p>Do not include extension numbers in the CSV file</p></li>
+<li><p>Type: USER</p></li>
+<li><p>Device Type: IP</p></li>
+<li><p>Model: Cisco <mark>8865</mark></p></li>
+</ul></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+
+<p>STOP - END OF LAB</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="media/image7.svg" data-title="Stop with solid fill" data-desc-position="top"><img src="media/image7.svg" style="width:1.27778in;height:1.27778in" alt="Stop with solid fill"></a></p>
+<h1 id="lab-5-workspaces">Lab 5 – Workspaces</h1>
+<p>In this lab, you will learn how to create workspaces, assign devices to
+workspaces, and enable hoteling and hotdesking on workspace devices.</p>
+<p>URL: <a href="http://admin.webex.com/">admin.webex.com</a> Login: Instructor
+provided credentials: Charles Holland – Webex Administrator</p>
+<table>
+<colgroup>
+<col style="width: 6%">
+<col style="width: 93%">
+</colgroup>
+<thead>
+<tr>
+<th rowspan="2">1.</th>
+<th>Management-&gt; Workspaces-&gt; Add Workspace</th>
+</tr>
+<tr>
+<th><p>Paw Pet Supply Solutions has 4 shared use areas in which they
+need to hold meetings and make and receive calls</p>
+<ul>
+<li><p>Add the workspaces with the corresponding devices and
+services</p></li>
+</ul></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="2"><table>
+<colgroup>
+<col style="width: 18%">
+<col style="width: 10%">
+<col style="width: 13%">
+<col style="width: 33%">
+<col style="width: 11%">
+<col style="width: 12%">
+</colgroup>
+<thead>
+<tr>
+<th>Workspace name</th>
+<th>Type</th>
+<th>Device</th>
+<th>Services</th>
+<th>Location</th>
+<th>Extension</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SharedCubicle1</td>
+<td>Desk</td>
+<td>Cisco Desk Phone - 9841</td>
+<td><p>Cisco Webex Calling</p>
+<p>Common area workspace</p></td>
+<td>HQ</td>
+<td>201</td>
+</tr>
+<tr>
+<td>SharedCubicle2</td>
+<td>Desk</td>
+<td><mark>Cisco 8865</mark></td>
+<td><p>Cisco Webex Calling</p>
+<p>Common area workspace</p></td>
+<td>HQ</td>
+<td>201</td>
+</tr>
+<tr>
+<td rowspan="2">Conference Room1</td>
+<td rowspan="2">Meeting Room</td>
+<td>Cisco Board Pro</td>
+<td rowspan="2">Cisco Webex Calling Professional workspace</td>
+<td rowspan="2">HQ</td>
+<td rowspan="2">300</td>
+</tr>
+<tr>
+<td><mark>Cisco</mark> <mark>8865</mark></td>
+</tr>
+<tr>
+<td rowspan="2">Conference Room1</td>
+<td rowspan="2">Meeting Room</td>
+<td>Cisco Board Pro</td>
+<td rowspan="2">Cisco Webex Calling Professional workspace</td>
+<td rowspan="2">Factory</td>
+<td rowspan="2">300</td>
+</tr>
+<tr>
+<td><mark>Cisco</mark> <mark>8865</mark></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+<tr>
+<td rowspan="2">2.</td>
+<td>Management-&gt; Workspaces-&gt; Select Workspace-&gt;
+Scheduling</td>
+</tr>
+<tr>
+<td><p>To conduct calls in private, users may sometimes need to access
+all of their configured lines from a location other than their usual
+desk.</p>
+<p>Enable Hot Desking</p>
+<ul>
+<li><p>Workspace: SharedCubicle1</p></li>
+<li><p>Hot Desking: Enable</p></li>
+</ul></td>
+</tr>
+<tr>
+<td rowspan="2">3</td>
+<td>Management-&gt; Devices-&gt; Select device-&gt; Hoteling</td>
+</tr>
+<tr>
+<td><p>To conduct calls in private, users may sometimes need to make and
+receive calls in a space other than their typical desk. Most of these
+users only have a primary line.</p>
+<p>Enable device to be used as a hoteling host</p>
+<ul>
+<li><p>Device: Cisco 8865 belonging to SharedCubicle2</p></li>
+<li><p>Hoteling: Enable</p></li>
+<li><p>Limit the time a guest can use this phone to 12 hours</p></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+
+<p>STOP - END OF LAB</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="media/image7.svg" data-title="Stop with solid fill" data-desc-position="top"><img src="media/image7.svg" style="width:1.27778in;height:1.27778in" alt="Stop with solid fill"></a></p>
+<h1 id="lab-6-virtual-and-shared-lines">Lab 6 – Virtual and shared lines</h1>
+<p>Learn how to create virtual lines and assign them as shared line
+appearances.</p>
+<p>URL: <a href="http://admin.webex.com/">admin.webex.com</a> Login: Instructor
+provided credentials: Charles Holland – Webex Administrator</p>
+<table>
+<colgroup>
+<col style="width: 4%">
+<col style="width: 95%">
+</colgroup>
+<thead>
+<tr>
+<th rowspan="2">1.</th>
+<th>Services-&gt; Calling-&gt; Virtual Lines</th>
+</tr>
+<tr>
+<th><p>Eric Steele and Kellie Melby require a Houston phone number for
+calling customers in the Houston area</p>
+<p>Create two virtual lines</p>
+<ul>
+<li><p>Names: Extra Line1 and Extra Line2</p></li>
+<li><p>Location: Factory</p></li>
+<li><p>Assign a spare phone number and extension 110 and 111</p></li>
+</ul></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="2">2.</td>
+<td>Management-&gt; Devices-&gt; Select device-&gt; Device Management
+-&gt; Configure Lines</td>
+</tr>
+<tr>
+<td><p>Eric Steele and Kellie will need to access those lines on their
+8800 series Cisco multi-platform phones</p>
+<p>Assign virtual lines from the step above to the appropriate
+devices</p></td>
+</tr>
+</tbody>
+</table>
+
+<p>STOP</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="media/image9.svg" data-title="Warning outline" data-desc-position="top"><img src="media/image9.svg" style="width:1in;height:1in" alt="Warning outline"></a></p>
+<p>STOP - END OF LAB</p>
+<h1 id="lab-7-configuring-calling-features">Lab 7 – Configuring Calling features</h1>
+<p>In this lab, you will learn how to create virtual extensions, call park
+extensions, and call park groups.</p>
+<p>URL: <a href="http://admin.webex.com/">admin.webex.com</a> Login: Instructor
+provided credentials: Charles Holland – Webex Administrator</p>
+<table>
+<colgroup>
+<col style="width: 4%">
+<col style="width: 95%">
+</colgroup>
+<thead>
+<tr>
+<th rowspan="2">1.</th>
+<th>Services-&gt; Calling-&gt; Features-&gt; Call park extension-&gt;
+Create call park extension</th>
+</tr>
+<tr>
+<th><p>The sales department needs to place callers on hold for team
+members to pick them up from any device</p>
+<p>Create call park extensions</p>
+<ul>
+<li><p>Location: HQ</p></li>
+<li><p>Names &amp; Extensions:</p>
+<ul>
+<li><p>Extension 1 – 401</p></li>
+<li><p>Extension 2 – 402</p></li>
+<li><p>Extension 3 – 403</p></li>
+</ul></li>
+</ul></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="2">2.</td>
+<td>Services-&gt; Calling-&gt; Features-&gt; Call park group-&gt; Select
+location-&gt; Create call park group</td>
+</tr>
+<tr>
+<td><p>Create a call park group</p>
+<ul>
+<li><p>Location: HQ</p></li>
+<li><p>Name: Sales CP Group</p></li>
+<li><p>Members:</p>
+<ul>
+<li><p>Kellie Melby</p></li>
+<li><p>Sales1@YourFullName##.com</p></li>
+<li><p><a href="mailto:Sales2@YourFullName">Sales2@YourFullName##.com</a></p></li>
+</ul></li>
+<li><p>Park Destinations: Call Park Extensions 401, 402, 403</p>
+<ul>
+<li><p>Recall: Alert Parking User Only</p></li>
+</ul></li>
+</ul></td>
+</tr>
+<tr>
+<td rowspan="2">3.</td>
+<td>Services-&gt; Calling-&gt; Features-&gt; Call pickup-&gt; Create
+call pickup</td>
+</tr>
+<tr>
+<td><p>The Sales Department employees need to answer each other calls
+when other team members in the same location are unavailable.</p>
+<p>Create Pickup Group</p>
+<ul>
+<li><p>Location: HQ</p></li>
+<li><p>Name: SalesCPick</p></li>
+<li><p>Users:</p>
+<ul>
+<li><p>Kellie Melby</p></li>
+<li><p>Sales1@YourFullName##.com</p></li>
+<li><p><a href="mailto:Sales2@YourFullName">Sales2@YourFullName##.com</a></p></li>
+</ul></li>
+</ul></td>
+</tr>
+<tr>
+<td rowspan="2">4.</td>
+<td>Services-&gt; Calling-&gt; Features-&gt; Paging group-&gt; Create
+paging group</td>
+</tr>
+<tr>
+<td><p>Anita Perez needs to quickly make important announcements to all
+employees.</p>
+<p>Create a paging group</p>
+<ul>
+<li><p>Location: HQ</p></li>
+<li><p>Name: Announcements Page</p></li>
+<li><p>Extension: 501</p></li>
+<li><p>Caller ID: Announcements Page</p></li>
+<li><p>Paging Targets: All employees</p></li>
+<li><p>Paging Originators: Anita Perez</p></li>
+</ul></td>
+</tr>
+<tr>
+<td rowspan="2">5</td>
+<td>Services-&gt; Calling-&gt; Features -&gt;Voicemail group-&gt; Create
+voicemail group</td>
+</tr>
+<tr>
+<td><p>After hours calls need to route to a voice mailbox that all
+employees in the Sales and Marketing departments can access</p>
+<p>Create a voicemail group</p>
+<ul>
+<li><p>Location: HQ</p></li>
+<li><p>Name: AfterHours VmailGroup</p></li>
+<li><p>Extension: 600</p></li>
+<li><p>Passcode: 258011</p></li>
+<li><p>Language: English</p></li>
+</ul></td>
+</tr>
+<tr>
+<td rowspan="2">6</td>
+<td>Services-&gt; Calling-&gt; Features-&gt; Operating Mode</td>
+</tr>
+<tr>
+<td><p>Rebekah Barretta needs to route calls to voicemail for the
+Product Development department as needed. For example, if the office
+closes unexpectedly or there is a company-wide meeting.</p>
+<p>Create an operating mode</p>
+<ul>
+<li><p>Level: Organization</p></li>
+<li><p>Name: ToVmail</p></li>
+<li><p>Forward destination: Ext 600 (AfterHours VmailGroup)</p></li>
+</ul></td>
+</tr>
+<tr>
+<td rowspan="2">7</td>
+<td>Services-&gt; Calling-&gt; Features-&gt; Hunt group-&gt; Manage
+-&gt; Add</td>
+</tr>
+<tr>
+<td><p>During business hours, the employees in Marketing and Product
+Development departments need to share the volume of incoming calls</p>
+<p>Create a hunt group for Marketing</p>
+<ul>
+<li><p>Location: HQ</p></li>
+<li><p>Name: Marketing HG</p></li>
+<li><p>Extensions: 701</p></li>
+<li><p>Routing: Circular</p></li>
+<li><p>Routing Options: Advance when busy</p></li>
+<li><p>Assign all Marketing employees and Eric Steele</p>
+<p>Create a hunt group for Product Development</p></li>
+<li><p>Location: Factory</p></li>
+<li><p>Name: ProductDev HG</p></li>
+<li><p>Extensions: 701</p></li>
+<li><p>Routing: Circular</p></li>
+<li><p>Routing Options: Advance when busy</p></li>
+<li><p>Assign all Marketing employees and Eric Steele</p></li>
+<li><p>Call Forwarding: Enable</p>
+<ul>
+<li><p>Forward calls by mode</p></li>
+<li><p>Add ToVmail operating mode</p></li>
+</ul></li>
+</ul></td>
+</tr>
+<tr>
+<td rowspan="2">8</td>
+<td>Services-&gt; Calling-&gt; Features-&gt; Announcements-&gt;
+Manage-&gt; Add File -&gt; Upload</td>
+</tr>
+<tr>
+<td><p>The company needs to let callers know that certain calls are
+recorded.</p>
+<p>Upload a greeting to be used for specific features</p>
+<ul>
+<li><p>Location: Organization</p></li>
+<li><p>Label: Calls will be Recorded</p></li>
+<li><p>Filename: All-Calls-are-Recorded.wav, file provided by
+instructor</p></li>
+</ul></td>
+</tr>
+<tr>
+<td rowspan="2">9</td>
+<td>Services-&gt; Calling-&gt; Features-&gt; Announcements-&gt;
+Manage-&gt; Add File -&gt; Record</td>
+</tr>
+<tr>
+<td><p>The company wants callers to hear messages periodically while
+they are on hold for certain calls.</p>
+<p>Record and save a greeting to be used for specific features</p>
+<ul>
+<li><p>Location: Organization</p></li>
+<li><p>Label: Waiting</p></li>
+<li><p>Filename: Answer Soon</p></li>
+<li><p>Message: “Your call is important to us. We will be with you
+shortly”</p></li>
+</ul></td>
+</tr>
+<tr>
+<td rowspan="2">10</td>
+<td>Services-&gt; Calling-&gt; Features-&gt; Auto attendant-&gt; Create
+auto attendant</td>
+</tr>
+<tr>
+<td><p>Calls to the Factory main number must be answered by an automated
+system giving callers the options to reach their desired department with
+different options for business and after hours</p>
+<p>Create an auto attendant for the Factory main number</p>
+<ul>
+<li><p>Location: Factory</p></li>
+<li><p>Name: AA Main</p></li>
+<li><p>Number: Factory Main Number</p></li>
+<li><p>Extension: 250</p></li>
+<li><p>Language: English</p></li>
+<li><p>Schedule: Open Hours</p></li>
+<li><p>Holiday Schedule: None</p></li>
+<li><p>Business Hours Menu</p>
+<ul>
+<li><p>Disable extension level dialing</p></li>
+<li><p>Option 1:</p>
+<ul>
+<li><p>Transfer without prompt: Marketing HG</p></li>
+</ul></li>
+<li><p>Option 2:</p>
+<ul>
+<li><p>Transfer without prompt: Product Development HG</p></li>
+</ul></li>
+<li><p>Option 3: Repeat Menu</p></li>
+<li><p>Option 4: Transfer call to operator – Anita Perez</p></li>
+</ul></li>
+<li><p>After Hours Menu</p>
+<ul>
+<li><p>Option 1: Transfer call to operator – AfterHours VmailGroup ext
+600</p></li>
+<li><p>Custom Welcome Greeting: Record and rename file to
+welcome.wav</p></li>
+<li><p>Custom Closed Greeting: Record and rename file to
+closed.wav</p></li>
+</ul></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+
+<p>STOP - END OF LAB</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="media/image7.svg" data-title="Stop with solid fill" data-desc-position="top"><img src="media/image7.svg" style="width:1.27778in;height:1.27778in" alt="Stop with solid fill"></a></p>
+<h1 id="lab-8-creating-call-queues">Lab 8 – Creating Call Queues</h1>
+<p>In this lab, you will learn how to create call queues.</p>
+<p>URL: <a href="http://admin.webex.com/">admin.webex.com</a> Login: Instructor
+provided credentials: Charles Holland – Webex Administrator</p>
+<table>
+<colgroup>
+<col style="width: 4%">
+<col style="width: 95%">
+</colgroup>
+<thead>
+<tr>
+<th rowspan="2">1.</th>
+<th>Services-&gt; Calling-&gt; Features-&gt; Call Queue-&gt; Manage
+-&gt; Add</th>
+</tr>
+<tr>
+<th><p>During business hours, callers to the San Jose Support and Sales
+departments should be placed on hold until an agent is available.</p>
+<p>Create a Call Queue</p>
+<ul>
+<li><p>Location: HQ</p></li>
+<li><p>Name: Sales Queue</p></li>
+<li><p>Extension: 900</p></li>
+<li><p>Number of calls in queue: 15</p></li>
+<li><p>Caller ID: Location number</p></li>
+<li><p>Routing: Priority Based - Longest Idle</p></li>
+<li><p>Overflow: Transfer to Anita Perez after 60 seconds</p></li>
+<li><p>Welcome Message: Mandatory</p>
+<ul>
+<li><p>Custom Welcome Message: Call Recorded, instructor
+provided</p></li>
+</ul></li>
+<li><p>Comfort Message: 20 seconds between messages</p>
+<ul>
+<li><p>Custom Comfort Message: Answer Soon, instructor provided</p></li>
+</ul></li>
+<li><p>Hold Music: Play default music</p></li>
+<li><p>Agents:</p>
+<ul>
+<li><p>Sales1@YourFullName##.com</p></li>
+<li><p><a href="mailto:Sales2@YourFullName">Sales2@YourFullName##.com</a></p></li>
+<li><p>Eric Steele</p></li>
+<li><p>Kellie Melby</p></li>
+</ul></li>
+<li><p>Enable Night Service:</p>
+<ul>
+<li><p>Default Greeting</p></li>
+<li><p>Transfer to Phone number 600</p></li>
+<li><p>Open Hours schedule</p></li>
+</ul></li>
+<li><p>Stranded calls: Follow Night Service</p></li>
+</ul></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="2">2.</td>
+<td>Services-&gt; Calling-&gt; Features-&gt; Call queue-&gt;
+Supervisors-&gt; Add Supervisor</td>
+</tr>
+<tr>
+<td><p>The supervisor needs to silently monitor agents in their
+respective queues</p>
+<ul>
+<li><p>Supervisor: Charles Holland</p></li>
+<li><p>Agents:</p>
+<ul>
+<li><p>Sales1@YourFullName##.com</p></li>
+<li><p><a href="mailto:Sales2@YourFullName">Sales2@YourFullName##.com</a></p></li>
+<li><p>Eric Steele</p></li>
+<li><p>Kellie Melby</p></li>
+</ul></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+
+<p>STOP - END OF LAB</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="media/image7.svg" data-title="Stop with solid fill" data-desc-position="top"><img src="media/image7.svg" style="width:1.27778in;height:1.27778in" alt="Stop with solid fill"></a></p>
+<h1 id="lab-9-admin-controlled-user-features">Lab 9 – Admin-controlled user features</h1>
+<p>In this lab, you will learn to configure admin-controlled user features.</p>
+<p>URL: <a href="http://admin.webex.com/">admin.webex.com</a> Login: Instructor
+provided credentials: Charles Holland – Webex Administrator</p>
+<table>
+<colgroup>
+<col style="width: 4%">
+<col style="width: 95%">
+</colgroup>
+<thead>
+<tr>
+<th rowspan="2">1.</th>
+<th>Management-&gt; Users-&gt; Rebekah Barretta-&gt; Calling-&gt;
+Calling handling -&gt; Mode management</th>
+</tr>
+<tr>
+<th><p>Rebekah Barretta needs to change the Product Development HQ to
+ToVmail operating mode as needed</p>
+<p>Enable mode management for Rebekah Barretta</p>
+<ul>
+<li><p>Add Product Development HQ</p>
+<p><em>Make note of Rebekah’s email address for the next
+lab!</em></p></li>
+</ul></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="2">2.</td>
+<td>Management-&gt; Users-&gt; Anita Perez-&gt; Calling-&gt;
+Between-user permissions-&gt; Monitoring</td>
+</tr>
+<tr>
+<td><p>Anita Perez requires the ability to monitor the lines all sales
+employees</p>
+<p>Add monitored lines to Anita Perez’s profile</p>
+<ul>
+<li><p>Users:</p>
+<ul>
+<li><p>Sales1@YourFullName##.com</p></li>
+<li><p><a href="mailto:Sales2@YourFullName">Sales2@YourFullName##.com</a></p></li>
+<li><p>Eric Steele</p></li>
+<li><p>Kellie Melby</p></li>
+</ul></li>
+</ul></td>
+</tr>
+<tr>
+<td rowspan="2">3.</td>
+<td>Management-&gt; Users-&gt; Anita Perez-&gt; Calling-&gt;
+Between-user permissions -&gt; Hotdesking</td>
+</tr>
+<tr>
+<td><p>Anita Perez needs to use a line with a Houston phone number
+(virtual line created in Lab 6) when using the Hotdesking feature</p>
+<p>Add virtual line to Anita Perez’s profile</p>
+<ul>
+<li><p>Add: Extra Line1</p></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+
+<p>STOP - END OF LAB</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="media/image7.svg" data-title="Stop with solid fill" data-desc-position="top"><img src="media/image7.svg" style="width:1.27778in;height:1.27778in" alt="Stop with solid fill"></a></p>
+<h1 id="lab-10-configurations-in-user-hub">Lab 10 – Configurations in User Hub</h1>
+<p>In this lab, you will learn how users can configure calling settings in
+User Hub.</p>
+<p>URL: <a href="https://user.webex.com/">user.webex.com</a></p>
+<p>Login: Rebekah Barretta’s email, password same as your admin login
+(Charles Holland)</p>
+<table>
+<colgroup>
+<col style="width: 4%">
+<col style="width: 95%">
+</colgroup>
+<thead>
+<tr>
+<th rowspan="2">1.</th>
+<th>user.webex.com-&gt; Settings -&gt; Calling -&gt; Features -&gt; Mode
+Management</th>
+</tr>
+<tr>
+<th><p>Rebekah Barretta needs to route calls to voicemail for the
+Product Development department as needed. For example, if the office
+closes unexpectedly or there is a company-wide meeting.</p>
+<p>Manage call-forwarding settings in User Hub</p>
+<ul>
+<li><p>Select Product Development HG</p>
+<ul>
+<li><p>Switch Mode</p>
+<ul>
+<li><p>ToVmail</p></li>
+</ul></li>
+<li><p>Switch back</p></li>
+</ul></li>
+</ul></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="2">2.</td>
+<td>user.webex.com -&gt; Settings -&gt; Calling -&gt; Hoteling</td>
+</tr>
+<tr>
+<td><p>Rebekah Barretta sometimes needs to use a phone at the San Jose
+location as her own when she visits</p>
+<p>Enable hoteling for Rebekah Barretta</p>
+<ul>
+<li><p>Hoteling: SharedCubicle2</p></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+
+<p>STOP - END OF LAB</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="media/image7.svg" data-title="Stop with solid fill" data-desc-position="top"><img src="media/image7.svg" style="width:1.27778in;height:1.27778in" alt="Stop with solid fill"></a></p>
+<p>Congratulations!</p>
+<p>You have completed:</p>
+<p>LAB-1251</p>
+<p>Leveling up communication:</p>
+<p>A follow-along Webex Calling lab</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright © 2025 Cisco
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.indexes", "navigation.instant", "navigation.top", "navigation.footer", "search.suggest", "content.code.copy", "toc.integrate"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+        <script src="../template_assets/js/newLoad.js"></script>
+      
+        <script src="../template_assets/js/setInfo.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": false, "openEffect": "fade", "closeEffect": "fade", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>
