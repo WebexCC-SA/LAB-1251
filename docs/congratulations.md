@@ -22,4 +22,4 @@ Please make sure to take the survey:
 
 <iframe src='https://app.sli.do/event/miQHivAtJ9V6jW9MkiX9Ts/embed/polls/1e34b61b-628f-465a-a3e8-ec691af679d8' width='300' height='400'></iframe>
 
-Pascode: WebexCallingLab
+Passcode: WebexCallingLab
