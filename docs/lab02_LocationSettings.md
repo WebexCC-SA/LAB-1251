@@ -87,7 +87,7 @@ In this lab, you will learn how to add locations.
 <ul>
 <li><p>Location name: HQ</p></li>
 </ul>
-<a text-align="right" href="https://help.webex.com/en-us/article/ilga4/Manage-call-recording-for-Webex-Calling" target="_blank"><p id="p5">Webex Help Article</p></a>
+<a text-align="right" href="https://help.webex.com/en-us/article/ajh6iy/Locations-in-Control-Hub#Manage-locations" target="_blank"><p id="p5">Webex Help Article</p></a>
 
 </td>
 </tr>
@@ -177,7 +177,7 @@ location must present their own main number as their caller id.</p>
 <p>You will need to know your locations main number in a subsequent lab; make a
 note of which ones you use.</p>
 
-<a text-align="right" href="https://help.webex.com/en-us/article/njvdjf2/Configure-Webex-Calling-for-your-organization" target="_blank"><p id="p5">Webex Help Article</p></a>
+<a text-align="right" href="https://help.webex.com/en-us/article/njvdjf2/Configure-Webex-Calling-for-your-organization#id_118602" target="_blank"><p id="p5">Webex Help Article</p></a>
 
 </td>
 </tr>

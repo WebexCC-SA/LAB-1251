@@ -115,7 +115,7 @@ Phones</p></td>
 <li><p>Upload the modified device sample template, scroll down and select Provide link, before submit the file</p></li>
 <li><p>When the job finish, download the activation code list</p></li>
 </ul>
-<a text-align="right" href="https://help.webex.com/en-us/article/n9r1aac/Configure-and-manage-Webex-Calling-devices" target="_blank"><p id="p5">Webex Help Article</p></a>
+<a text-align="right" href="https://help.webex.com/en-us/article/n9r1aac/Configure-and-manage-Webex-Calling-devices#id_118912" target="_blank"><p id="p5">Webex Help Article</p></a>
 </td>
 </tr>
 
