@@ -27,6 +27,14 @@
     font-size: 30px;
     }
 
+
+  #p5 {
+    color: #6495ED;
+    font-weight: bold;
+    text-align: right;
+    }
+
+
   .container {
   text-align: center;
   }
@@ -48,7 +56,7 @@ In this lab, you will learn how to create users, assign licenses, and assign ext
 <table>
 <tr>
 <td><p id="p3">URL</p></td>
-<td><a href="https://admin.webex.com">admin.webex.com</a></td>
+<td><a href="https://admin.webex.com" target="_blank">admin.webex.com</a></td>
 </tr>
 <tr>
 <td><p id="p3">Login</p></td>
@@ -78,7 +86,9 @@ In this lab, you will learn how to create users, assign licenses, and assign ext
 <li><p>Location: HQ</p></li>
 <li><p>Number: Unused number (not main number of the Location)</p></li>
 <li><p>Extension: 101</p></li>
-</ul></td>
+</ul>
+<a text-align="right" href="https://help.webex.com/en-us/article/v71ztb/Add-users-manually-in-Control-Hub" target="_blank"><p id="p5">Webex Help Article</p></a>
+</td>
 </tr>
 
 
@@ -89,7 +99,7 @@ In this lab, you will learn how to create users, assign licenses, and assign ext
 <tr>
 <td><p id="p2">there are 16 employees that require extensions for calling.</p>
 <ul>
-<li><p>Use instructor provided <a href="https://webexcc-sa.github.io/LAB-1251/assets/AddUsersTemplate.xlsx">Add Users and Devices Template</a> to modify the csv template file or manually create users based on
+<li><p>Use instructor provided <a href="https://webexcc-sa.github.io/LAB-1251/assets/AddUsersTemplate.xlsx" target="_blank">Add Users and Devices Template</a> to modify the csv template file or manually create users based on
 tables below. Keep in mind that existing users also need Webex Calling professional license as well as location and extension settings.</p>
 <ul>
 <li><p>YourFullName = Your first and last name</p></li>
@@ -98,7 +108,9 @@ tables below. Keep in mind that existing users also need Webex Calling professio
 <li><p>Create users for each location manually and/or in bulk</p></li>
 <li><p>Assign a Webex Calling professional license and an extension
 number</p></li>
-</ul></td>
+</ul>
+<a text-align="right" href="https://help.webex.com/en-us/article/nlkiw8e/Manage-multiple-users-in-Control-Hub-with-the-CSV-template" target="_blank"><p id="p5">Webex Help Article</p></a>
+</td>
 </tr>
 </tbody>
 </table>
@@ -200,17 +212,17 @@ number</p></li>
 <td>Professional</td>
 </tr>
 <tr>
-<td>ProductDev 2@YourFullName##.com</td>
+<td>ProductDev2@YourFullName##.com</td>
 <td>106</td>
 <td>Professional</td>
 </tr>
 <tr>
-<td>ProductDev 3@YourFullName##.com</td>
+<td>ProductDev3@YourFullName##.com</td>
 <td>107</td>
 <td>Professional</td>
 </tr>
 <tr>
-<td>ProductDev 4@YourFullName##.com</td>
+<td>ProductDev4@YourFullName##.com</td>
 <td>108</td>
 <td>Professional</td>
 </tr>

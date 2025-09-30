@@ -27,6 +27,12 @@
     font-size: 30px;
     }
 
+  #p5 {
+    color: #6495ED;
+    font-weight: bold;
+    text-align: right;
+    }
+
   .container {
   text-align: center;
   }
@@ -50,7 +56,7 @@ In this lab, you will learn to configure admin-controlled user features.
 <table>
 <tr>
 <td><p id="p3">URL</p></td>
-<td><a href="https://admin.webex.com">admin.webex.com</a></td>
+<td><a href="https://admin.webex.com" target="_blank">admin.webex.com</a></td>
 </tr>
 <tr>
 <td><p id="p3">Login</p></td>
@@ -76,7 +82,12 @@ In this lab, you will learn to configure admin-controlled user features.
 <ul>
 <li><p>Add Product Development HG</p>
 <p><em>Take note of Rebekah’s email address for the next lab!</em></p></li>
-</ul></td>
+</ul>
+
+<a text-align="right" href="https://help.webex.com/en-us/article/fozeml/Call-routing-based-on-operating-modes-in-Webex-Calling#concept-template_49562d3e-0cfc-47af-b551-7361dc9ebe05" target="_blank"><p id="p5">Webex Help Article</p></a>
+
+
+</td>
 </tr>
 
 
@@ -95,7 +106,11 @@ In this lab, you will learn to configure admin-controlled user features.
 <li><p>Eric Steele</p></li>
 <li><p>Kellie Melby</p></li>
 </ul></li>
-</ul></td>
+</ul>
+
+<a text-align="right" href="https://help.webex.com/en-us/article/vz1hgfb/Monitor-other-user's-line-status-and-call-park-extensions" target="_blank"><p id="p5">Webex Help Article</p></a>
+
+</td>
 </tr>
 <tr>
 <td rowspan="2"><p id="p1">3.</p></td>
@@ -105,7 +120,11 @@ In this lab, you will learn to configure admin-controlled user features.
 <td><p id="p2">Anita Perez needs the Houston virtual phone number added to her Hotdesking profile to appear local to Houston clients while working at a temporary desk</p>
 <ul>
 <li><p>Add: Houston Cust Line1</p></li>
-</ul></td>
+</ul>
+
+<a text-align="right" href="https://help.webex.com/en-us/article/eb1du4/Configure-Hot-Desking-for-phones-on-Control-Hub#task-template_1106f615-5d36-4f18-84dd-d87fc68ebc81" target="_blank"><p id="p5">Webex Help Article</p></a>
+
+</td>
 </tr>
 </tbody>
 </table>

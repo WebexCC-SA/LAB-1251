@@ -58,7 +58,7 @@ In this lab, you will learn how to navigate and configure organization settings 
 <table>
 <tr>
 <td><p id="p3">URL</p></td>
-<td><a href="https://admin.webex.com">admin.webex.com</a></td>
+<td><a href="https://admin.webex.com" target="_blank">admin.webex.com</a></td>
 </tr>
 <tr>
 <td><p id="p3">Login</p></td>
@@ -84,7 +84,7 @@ In this lab, you will learn how to navigate and configure organization settings 
 <ul>
 <li><p>Change the timeout to 12 hours</p></li>
 </ul>
-<a text-align="right" href="https://help.webex.com/en-us/article/nl4m0jo/Configure-Idle-Session-Timeout-for-Control-Hub-Users"><p id="p5">Webex Help Article</p></a>
+<a text-align="right" href="https://help.webex.com/en-us/article/nl4m0jo/Configure-Idle-Session-Timeout-for-Control-Hub-Users" target="_blank"><p id="p5">Webex Help Article</p></a>
 </td>
 </tr>
 
@@ -100,7 +100,7 @@ In this lab, you will learn how to navigate and configure organization settings 
 <li><p>Steering digit: 8</p></li>
 <li><p>Extension length: 3</p></li>
 </ul>
-<a text-align="right" href="https://help.webex.com/en-us/article/pxtu15/Configure-your-Webex-Calling-dial-plan"><p id="p5">Webex Help Article</p></a>
+<a text-align="right" href="https://help.webex.com/en-us/article/pxtu15/Configure-your-Webex-Calling-dial-plan" target="_blank"><p id="p5">Webex Help Article</p></a>
 
 </td>
 </tr>
@@ -119,7 +119,7 @@ organization</p>
 <ul>
 <li><p>Default Passcode: 258011</p></li>
 </ul>
-<a text-align="right" href="https://help.webex.com/en-us/article/nojp8ej/Configure-voice-portals-for-Webex-Calling-in-Control-Hub"><p id="p5">Webex Help Article</p></a>
+<a text-align="right" href="https://help.webex.com/en-us/article/nojp8ej/Configure-voice-portals-for-Webex-Calling-in-Control-Hub" target="_blank"><p id="p5">Webex Help Article</p></a>
 </td>
 </tr>
 
@@ -131,7 +131,7 @@ organization</p>
 <tr>
 <td><p id="p2">Webex is the preferred calling vendor</p>
 <p>Set Webex as the call recording provider</p>
-<a text-align="right" href="https://help.webex.com/en-us/article/ilga4/Manage-call-recording-for-Webex-Calling"><p id="p5">Webex Help Article</p></a>
+<a text-align="right" href="https://help.webex.com/en-us/article/ilga4/Manage-call-recording-for-Webex-Calling" target="_blank"><p id="p5">Webex Help Article</p></a>
 </td>
 
 </tr>

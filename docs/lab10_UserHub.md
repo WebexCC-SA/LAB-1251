@@ -27,6 +27,13 @@
     font-size: 30px;
     }
 
+  #p5 {
+    color: #6495ED;
+    font-weight: bold;
+    text-align: right;
+    }
+
+
   .container {
   text-align: center;
   }
@@ -47,8 +54,8 @@ In this lab, you will learn how users can configure calling settings in User Hub
 
 <table>
 <tr>
-<td><p id="p3">URL (use incognito mode in your browser)</p></td>
-<td><a href="https://user.webex.com">user.webex.com</a></td>
+<td><p id="p3">URL (use INCOGNITO mode in your browser)</p></td>
+<td><a href="https://user.webex.com" target="_blank">user.webex.com</a></td>
 </tr>
 <tr>
 <td><p id="p3">Login</p></td>
@@ -87,7 +94,10 @@ closes unexpectedly or there is a company-wide meeting.</p>
 </ul>
 </li>
 </ul></li>
-</ul></td>
+</ul>
+<a text-align="right" href="https://help.webex.com/en-us/article/fozeml/Call-routing-based-on-operating-modes-in-Webex-Calling#concept-template_f6bd0a8d-3a74-4729-a7fd-9df4d86d8792" target="_blank"><p id="p5">Webex Help Article</p></a>
+
+</td>
 </tr>
 
 
@@ -100,7 +110,10 @@ closes unexpectedly or there is a company-wide meeting.</p>
 <p>Enable hoteling for Rebekah Barretta</p>
 <ul>
 <li><p>Hoteling: SharedCubicle2</p></li>
-</ul></td>
+</ul>
+<a text-align="right" href="https://help.webex.com/en-us/article/0ku8qo/Access-your-calling-profile-from-anywhere" target="_blank"><p id="p5">Webex Help Article</p></a>
+
+</td>
 </tr>
 </tbody>
 </table>

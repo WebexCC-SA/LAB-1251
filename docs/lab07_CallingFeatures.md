@@ -27,6 +27,13 @@
     font-size: 30px;
     }
 
+  #p5 {
+    color: #6495ED;
+    font-weight: bold;
+    text-align: right;
+    }
+
+
   .container {
   text-align: center;
   }
@@ -53,7 +60,7 @@ In this lab, you will learn how to create virtual extensions, call park extensio
 <table>
 <tr>
 <td><p id="p3">URL</p></td>
-<td><a href="https://admin.webex.com">admin.webex.com</a></td>
+<td><a href="https://admin.webex.com" target="_blank">admin.webex.com</a></td>
 </tr>
 <tr>
 <td><p id="p3">Login</p></td>
@@ -85,7 +92,13 @@ Add New</p></td>
 <li><p>Extension 2 – 402</p></li>
 <li><p>Extension 3 – 403</p></li>
 </ul></li>
-</ul></td>
+</ul>
+
+<a text-align="right" href="https://help.webex.com/en-us/article/nfoxd2m/Manage-call-park-in-Control-Hub#id_137124" target="_blank"><p id="p5">Webex Help Article</p></a>
+
+
+
+</td>
 </tr>
 
 
@@ -108,7 +121,11 @@ Add New</p></td>
 <ul>
 <li><p>Recall: Alert Parking User Only</p></li>
 </ul></li>
-</ul></td>
+</ul>
+
+<a text-align="right" href="https://help.webex.com/en-us/article/nfoxd2m/Manage-call-park-in-Control-Hub#id_131851" target="_blank"><p id="p5">Webex Help Article</p></a>
+
+</td>
 </tr>
 <tr>
 <td rowspan="2"><p id="p1">3.</p></td>
@@ -127,7 +144,12 @@ when other team members in the same location are unavailable.</p>
 <li><p>Sales1@YourFullName##.com</p></li>
 <li><p>Sales2@YourFullName##.com</p></li>
 </ul></li>
-</ul></td>
+</ul>
+
+<a text-align="right" href="https://help.webex.com/en-us/article/tll322/Configure-call-pickup-group" target="_blank"><p id="p5">Webex Help Article</p></a>
+
+
+</td>
 </tr>
 <tr>
 <td rowspan="2"><p id="p1">4.</p></td>
@@ -142,7 +164,11 @@ when other team members in the same location are unavailable.</p>
 <li><p>Extension: 501</p></li>
 <li><p>Paging Targets: All employees</p></li>
 <li><p>Paging Originators: Anita Perez</p></li>
-</ul></td>
+</ul>
+
+<a text-align="right" href="https://help.webex.com/en-us/article/jqejtd/Configure-a-paging-group-in-Control-Hub" target="_blank"><p id="p5">Webex Help Article</p></a>
+
+</td>
 </tr>
 <tr>
 <td rowspan="2"><p id="p1">5.</p></td>
@@ -159,6 +185,9 @@ when other team members in the same location are unavailable.</p>
 <li><p>Language: English</p></li>
 <li><p>Do not make changes to Voicemail Settings</p></li>
 </ul>
+
+<a text-align="right" href="https://help.webex.com/en-us/article/mcjd4u/Manage-a-shared-voicemail-and-inbound-fax-box-for-Webex-Calling#create-voicemail-group-primary-line-extension" target="_blank"><p id="p5">Webex Help Article</p></a>
+
 </td>
 </tr>
 <tr>
@@ -173,7 +202,11 @@ when other team members in the same location are unavailable.</p>
 <li><p>Name: ToMode</p></li>
 <li><p>Schedule: None</p></li>
 <li><p>Forward destination: Ext 600 (AfterHours VmailGroup)</p></li>
-</ul></td>
+</ul>
+
+<a text-align="right" href="https://help.webex.com/en-us/article/fozeml/Call-routing-based-on-operating-modes-in-Webex-Calling" target="_blank"><p id="p5">Webex Help Article</p></a>
+
+</td>
 </tr>
 <tr>
 <td rowspan="2"><p id="p1">7.</p></td>
@@ -204,7 +237,11 @@ when other team members in the same location are unavailable.</p>
 <li><p>Forward calls by mode</p></li>
 <li><p>Add ToMode operating mode</p></li>
 </ul></li>
-</ul></td>
+</ul>
+
+<a text-align="right" href="https://help.webex.com/en-us/article/o6rfjeb/Manage-hunt-groups-in-Control-Hub" target="_blank"><p id="p5">Webex Help Article</p></a>
+
+</td>
 </tr>
 <tr>
 <td rowspan="2"><p id="p1">8.</p></td>
@@ -231,7 +268,10 @@ they are on hold for certain calls.</p>
 <li><p>Label: Waiting</p></li>
 <li><p>Filename: Answer Soon</p></li>
 <li><p>Message: “Your call is important to us. We will be with you shortly”</p></li>
-</ul></td>
+</ul>
+<a text-align="right" href="https://help.webex.com/en-us/article/n5y120ab/Manage-announcement-repository" target="_blank"><p id="p5">Webex Help Article</p></a>
+
+</td>
 </tr>
 <tr>
 <td rowspan="2"><p id="p1">9.</p></td>
@@ -270,7 +310,10 @@ they are on hold for certain calls.</p>
 <li><p>Custom Closed Greeting: Record and rename file to closed.wav</p></li>
 </ul></li>
 
-</ul></td>
+</ul>
+<a text-align="right" href="https://help.webex.com/en-us/article/nsioxoi/Manage-auto-attendants" target="_blank"><p id="p5">Webex Help Article</p></a>
+
+</td>
 </tr>
 </tbody>
 </table>

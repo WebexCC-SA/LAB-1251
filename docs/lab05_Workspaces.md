@@ -27,6 +27,14 @@
     font-size: 30px;
     }
 
+  #p5 {
+    color: #6495ED;
+    font-weight: bold;
+    text-align: right;
+    }
+
+
+
   .container {
   text-align: center;
   }
@@ -50,7 +58,7 @@ In this lab, you will learn how to create workspaces, assign devices to workspac
 <table>
 <tr>
 <td><p id="p3">URL</p></td>
-<td><a href="https://admin.webex.com">admin.webex.com</a></td>
+<td><a href="https://admin.webex.com" target="_blank">admin.webex.com</a></td>
 </tr>
 <tr>
 <td><p id="p3">Login</p></td>
@@ -75,6 +83,8 @@ In this lab, you will learn how to create workspaces, assign devices to workspac
 <tr>
 <td><p id="p2">Paw Pet Supply Solutions has 4 shared use areas in which they need to hold meetings and make and receive calls</p>
 <p>Add the workspaces with the corresponding devices and services. Devices will be added using activation code.</p>
+
+
 </td>
 </tr>
 <tr>
@@ -139,7 +149,10 @@ In this lab, you will learn how to create workspaces, assign devices to workspac
 <tr>
 </tr>
 </tbody>
-</table></td>
+</table>
+
+<a text-align="right" href="https://help.webex.com/en-us/article/n9r1aac/Configure-and-manage-Webex-Calling-devices#id_123693" target="_blank"><p id="p5">Webex Help Article</p></a>
+</td>
 </tr>
 <tr>
 <td rowspan="2"><p id="p1">2.</p></td>
@@ -151,6 +164,9 @@ Scheduling</p></td>
 all of their configured lines from a location other than their usual
 desk.</p>
 <p>Verify that Hot Desk Sign in is selected</p>
+<a text-align="right" href="https://help.webex.com/en-us/article/eb1du4/Configure-Hot-Desking-for-phones-on-Control-Hub" target="_blank"><p id="p5">Webex Help Article</p></a>
+
+
 </td>
 </tr>
 
@@ -162,6 +178,9 @@ Scheduling</p></td>
 <tr>
 <td><p id="p2">To enable hoteling, its needed to disable hot desking for the Workspace.</p>
 <p>Disable Hot Desk Sign in </p>
+
+<a text-align="right" href="https://help.webex.com/en-us/article/eb1du4/Configure-Hot-Desking-for-phones-on-Control-Hub" target="_blank"><p id="p5">Webex Help Article</p></a>
+
 </td>
 </tr>
 
@@ -180,7 +199,11 @@ users only have a primary line.</p>
 <li><p>Device: Cisco 8865 belonging to SharedCubicle2</p></li>
 <li><p>Hoteling: Enable</p></li>
 <li><p>Limit the time a guest can use this phone to 12 hours</p></li>
-</ul></td>
+</ul>
+
+<a text-align="right" href="https://help.webex.com/en-us/article/t2d9bx/Hoteling-in-Control-Hub" target="_blank"><p id="p5">Webex Help Article</p></a>
+
+</td>
 </tr>
 </tbody>
 </table>

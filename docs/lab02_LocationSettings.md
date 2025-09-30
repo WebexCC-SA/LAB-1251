@@ -27,6 +27,13 @@
     font-size: 30px;
     }
 
+  #p5 {
+    color: #6495ED;
+    font-weight: bold;
+    text-align: right;
+    }
+
+
   .container {
   text-align: center;
   }
@@ -52,7 +59,7 @@ In this lab, you will learn how to add locations.
 <table>
 <tr>
 <td><p id="p3">URL</p></td>
-<td><a href="https://admin.webex.com">admin.webex.com</a></td>
+<td><a href="https://admin.webex.com" target="_blank">admin.webex.com</a></td>
 </tr>
 <tr>
 <td><p id="p3">Login</p></td>
@@ -79,7 +86,10 @@ In this lab, you will learn how to add locations.
 <p>Rename dCloud location</p>
 <ul>
 <li><p>Location name: HQ</p></li>
-</ul></td>
+</ul>
+<a text-align="right" href="https://help.webex.com/en-us/article/ilga4/Manage-call-recording-for-Webex-Calling" target="_blank"><p id="p5">Webex Help Article</p></a>
+
+</td>
 </tr>
 
 
@@ -100,6 +110,8 @@ manually</p></td>
 </ul>
 <p>In your new Factory location go to Calling and click “Set up calling” after creating your location and then
 close the PSTN connection window, on Cancel, or the x button.You will set up the PSTN connection in another step</p>
+<a text-align="right" href="https://help.webex.com/en-us/article/ajh6iy/Locations-in-Control-Hub#Add-a-single-location" target="_blank"><p id="p5">Webex Help Article</p></a>
+
 </td>
 </tr>
 <tr>
@@ -120,6 +132,9 @@ address</p></li>
 <li><p>Click on done (add numbers later)</p></li>
 </ul>
 <p>Repeat steps for Factory location</p>
+
+<a text-align="right" href="https://help.webex.com/en-us/article/nousk9ab/Get-Started-with-the-Cisco-Calling-Plans#Cisco_Task_in_List_GUI.dita_36fcaf64-4bcd-4eda-a968-ad59c7887905" target="_blank"><p id="p5">Webex Help Article</p></a>
+
 </td>
 
 </tr>
@@ -140,8 +155,13 @@ address</p></li>
 provisioned</p></li>
 </ul>
 <p>Repeat steps for Factory location</p>
+<a text-align="right" href="https://help.webex.com/en-us/article/nousk9ab/Get-Started-with-the-Cisco-Calling-Plans#task_8A6009CE34ECC3CC096B67F8335D8F5B" target="_blank"><p id="p5">Webex Help Article</p></a>
 </td>
 </tr>
+
+
+
+
 <tr>
 <td rowspan="2"><p id="p1">5.</p></td>
 <td><p id="p1">Management-&gt; Locations-&gt; Select location -&gt; PSTN-&gt; PSTN Configuration-&gt; Main number</p></td>
@@ -156,8 +176,14 @@ location must present their own main number as their caller id.</p>
 </ul>
 <p>You will need to know your locations main number in a subsequent lab; make a
 note of which ones you use.</p>
+
+<a text-align="right" href="https://help.webex.com/en-us/article/njvdjf2/Configure-Webex-Calling-for-your-organization" target="_blank"><p id="p5">Webex Help Article</p></a>
+
 </td>
 </tr>
+
+
+
 <tr>
 <td rowspan="2"><p id="p1">6.</p></td>
 <td><p id="p1">Management-&gt; Locations-&gt; Select location -&gt; Calling-&gt;
@@ -169,7 +195,10 @@ Dialing-&gt; Internal dialing</p></td>
 <ul>
 <li><p>HQ: 81</p></li>
 <li><p>Factory: 82</p></li>
-</ul></td>
+</ul>
+<a text-align="right" href="https://help.webex.com/en-us/article/pxtu15/Configure-your-Webex-Calling-dial-plan" target="_blank"><p id="p5">Webex Help Article</p></a>
+
+</td>
 </tr>
 <tr>
 <td rowspan="2"><p id="p1">7.</p></td>
@@ -185,6 +214,9 @@ Calling features settings-&gt; Voice portal</p></td>
 <li><p>Language: English</p></li>
 </ul>
 <p>Repeat steps for Factory location</p>
+
+<a text-align="right" href="https://help.webex.com/en-us/article/nojp8ej/Configure-voice-portals-for-Webex-Calling-in-Control-Hub" target="_blank"><p id="p5">Webex Help Article</p></a>
+
 </td>
 </tr>
 <tr>
@@ -201,6 +233,7 @@ options based on the time of day.</p>
 <li><p>Schedule Type: Business Hours</p></li>
 <li><p>Monday – Friday 9:00 am – 5 pm</p></li>
 </ul>
+<a text-align="right" href="https://help.webex.com/en-us/article/bx6j0h/Create-schedules-in-Control-Hub" target="_blank"><p id="p5">Webex Help Article</p></a>
 </td>
 </tr>
 </tbody>

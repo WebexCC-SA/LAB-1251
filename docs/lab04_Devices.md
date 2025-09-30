@@ -27,6 +27,12 @@
     font-size: 30px;
     }
 
+  #p5 {
+    color: #6495ED;
+    font-weight: bold;
+    text-align: right;
+    }
+
   .container {
   text-align: center;
   }
@@ -49,7 +55,7 @@ In this lab, learn how to assign devices to users.
 <table>
 <tr>
 <td><p id="p3">URL</p></td>
-<td><a href="https://admin.webex.com">admin.webex.com</a></td>
+<td><a href="https://admin.webex.com" target="_blank">admin.webex.com</a></td>
 </tr>
 <tr>
 <td><p id="p3">Login</p></td>
@@ -79,7 +85,9 @@ In this lab, learn how to assign devices to users.
 <li><p>Activation method: Activation Code</p></li>
 <li><p>Model: Cisco 9861 (it's the fancy phone on your desk!)</p></li>
 <li><p>Enter the activation code</p></li>
-</ul></td>
+</ul>
+<a text-align="right" href="https://help.webex.com/en-us/article/n9r1aac/Configure-and-manage-Webex-Calling-devices" target="_blank"><p id="p5">Webex Help Article</p></a>
+</td>
 </tr>
 
 <tr>
@@ -106,7 +114,9 @@ Phones</p></td>
 </li>
 <li><p>Upload the modified device sample template, scroll down and select Provide link, before submit the file</p></li>
 <li><p>When the job finish, download the activation code list</p></li>
-</ul></td>
+</ul>
+<a text-align="right" href="https://help.webex.com/en-us/article/n9r1aac/Configure-and-manage-Webex-Calling-devices" target="_blank"><p id="p5">Webex Help Article</p></a>
+</td>
 </tr>
 
 </tbody>

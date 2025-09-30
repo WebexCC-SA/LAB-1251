@@ -27,6 +27,13 @@
     font-size: 30px;
     }
 
+  #p5 {
+    color: #6495ED;
+    font-weight: bold;
+    text-align: right;
+    }
+
+
   .container {
   text-align: center;
   }
@@ -51,7 +58,7 @@ In this lab, you will learn how to create call queues.
 <table>
 <tr>
 <td><p id="p3">URL</p></td>
-<td><a href="https://admin.webex.com">admin.webex.com</a></td>
+<td><a href="https://admin.webex.com" target="_blank">admin.webex.com</a></td>
 </tr>
 <tr>
 <td><p id="p3">Login</p></td>
@@ -133,7 +140,12 @@ In this lab, you will learn how to create call queues.
 </ul>
 </li>
 
-</ul></td>
+</ul>
+
+
+<a text-align="right" href="https://help.webex.com/en-us/article/nzkg083/Configure-Call-Queue" target="_blank"><p id="p5">Webex Help Article</p></a>
+
+</td>
 </tr>
 
 
@@ -152,7 +164,13 @@ In this lab, you will learn how to create call queues.
 <li><p>Eric Steele</p></li>
 <li><p>Kellie Melby</p></li>
 </ul></li>
-</ul></td>
+</ul>
+
+
+<a text-align="right" href="https://help.webex.com/en-us/article/nzkg083/Configure-Call-Queue#Manage-call-queue-supervisors" target="_blank"><p id="p5">Webex Help Article</p></a>
+
+
+</td>
 </tr>
 </tbody>
 </table>

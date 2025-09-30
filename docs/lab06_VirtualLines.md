@@ -27,6 +27,13 @@
     font-size: 30px;
     }
 
+  #p5 {
+    color: #6495ED;
+    font-weight: bold;
+    text-align: right;
+    }
+
+
   .container {
   text-align: center;
   }
@@ -47,7 +54,7 @@ Learn how to create virtual lines and assign them as shared line appearances.
 <table>
 <tr>
 <td><p id="p3">URL</p></td>
-<td><a href="https://admin.webex.com">admin.webex.com</a></td>
+<td><a href="https://admin.webex.com" target="_blank">admin.webex.com</a></td>
 </tr>
 <tr>
 <td><p id="p3">Login</p></td>
@@ -76,7 +83,10 @@ maintain a local presence, despite being based in California (HQ).</p>
 <li><p>Names: Houston Cust Line1 and Houston Cust Line2</p></li>
 <li><p>Location: Factory</p></li>
 <li><p>Assign a spare phone number and extension 110 and 111</p></li>
-</ul></td>
+</ul>
+<a text-align="right" href="https://help.webex.com/en-us/article/nthc9kbb/Multi-line-support-in-Webex-Calling-using-virtual-lines" target="_blank"><p id="p5">Webex Help Article</p></a>
+
+</td>
 </tr>
 
 
@@ -90,6 +100,7 @@ maintain a local presence, despite being based in California (HQ).</p>
 <li><p>Assign Eric's Cisco 8865 device to the virtual lines Houston Cust Line1 </p></li>
 <li><p>Assign Kellie's Cisco 8865 device to the virtual lines Houston Cust Line2 </p></li>
 </ul>
+<a text-align="right" href="https://help.webex.com/en-us/article/nthc9kbb/Multi-line-support-in-Webex-Calling-using-virtual-lines#Cisco_Task_in_List_GUI.dita_ec0d1c17-e012-46b9-aaf9-c976b6021b85" target="_blank"><p id="p5">Webex Help Article</p></a>
 </td>
 </tr>
 </tbody>
