@@ -83,7 +83,7 @@ In this lab, learn how to assign devices to users.
 <p>Assign devices to users manually or in bulk</p>
 <ul>
 <li><p>Activation method: Activation Code</p></li>
-<li><p>Model: Cisco 9861 (it's the fancy phone on your desk!)</p></li>
+<li><p>Model: Cisco 9861</p></li>
 <li><p>Enter the activation code</p></li>
 </ul>
 <a text-align="right" href="https://help.webex.com/en-us/article/n9r1aac/Configure-and-manage-Webex-Calling-devices" target="_blank"><p id="p5">Webex Help Article</p></a>
