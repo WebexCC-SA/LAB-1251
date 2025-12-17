@@ -118,7 +118,7 @@ In this lab, you will learn how to create call queues.
 <li><p>Agents:</p>
 <ul>
 <li><p>Stefan Mauk</p></li>
-<li><p>Taylor Bard/p></li>
+<li><p>Taylor Bard</p></li>
 <li><p>Eric Steele</p></li>
 <li><p>Kellie Melby</p></li>
 </ul></li>
