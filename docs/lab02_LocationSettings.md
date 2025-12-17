@@ -48,11 +48,10 @@ In this lab, you will learn how to add locations.
 
 - Paw Pet Supply Solutions desire their telephone system configured in a certain way: 
 
-    * There is 2 locations: HQ and Factory
-    * Cisco Calling Plan is used as PSTN for both locations
-    * 10 numbers ordered for each location
-    * Prefixes for the extension will be: HQ 81 and Factory 82
-    * Open Hours defined per location to be used for users, and calling features
+    * There is 1 locations: HQ 
+    * Cisco Calling Plan is used as PSTN
+    * 10 numbers ordered
+    * Open Hours defined to be used for users, and calling features
 
 ## Login Credentials
 
@@ -93,34 +92,14 @@ In this lab, you will learn how to add locations.
 </tr>
 
 
+
 <tr>
 <td rowspan="2"><p id="p1">2.</p></td>
-<td><p id="p1">Management-&gt; Locations-&gt; Manage locations-&gt; Create
-manually</p></td>
-</tr>
-<tr>
-<td><p id="p2">Paw Pet Solutions has a factory in Houston, TX.</p>
-<p>Add a location</p>
-<ul>
-<li><p>Location name: Factory</p></li>
-<li><p>Address: 4501 North Main Street, Houston, TX 77009, USA</p></li>
-<li><p>Time zone: Chicago</p></li>
-<li><p>Country – USA</p></li>
-<li><p>Language – English</p></li>
-</ul>
-<p>In your new Factory location go to Calling and click “Set up calling” after creating your location and then
-close the PSTN connection window, on Cancel, or the x button.You will set up the PSTN connection in another step</p>
-<a text-align="right" href="https://help.webex.com/en-us/article/ajh6iy/Locations-in-Control-Hub#Add-a-single-location" target="_blank"><p id="p5">Webex Help Article</p></a>
-
-</td>
-</tr>
-<tr>
-<td rowspan="2"><p id="p1">3.</p></td>
 <td><p id="p1">Management-&gt; Locations-&gt; Select location-&gt; PSTN-&gt;PSTN Configuration-&gt;PSTN connection-&gt;Manage</p></td>
 </tr>
 <tr>
-<td><p id="p2">HQ and Factory will use the Cisco Calling Plan</p>
-<p>Assign a PSTN Connection to each location</p>
+<td><p id="p2">HQ will use the Cisco Calling Plan</p>
+<p>Assign a PSTN Connection to the location</p>
 <ul>
 <li><p>Location: HQ</p></li>
 <li><p>Connection Type: Cisco Calling Plans</p></li>
@@ -131,7 +110,6 @@ address</p></li>
 <li><p>Job title: Admin</p></li>
 <li><p>Click on done (add numbers later)</p></li>
 </ul>
-<p>Repeat steps for Factory location</p>
 
 <a text-align="right" href="https://help.webex.com/en-us/article/nousk9ab/Get-Started-with-the-Cisco-Calling-Plans#Cisco_Task_in_List_GUI.dita_36fcaf64-4bcd-4eda-a968-ad59c7887905" target="_blank"><p id="p5">Webex Help Article</p></a>
 
@@ -139,11 +117,11 @@ address</p></li>
 
 </tr>
 <tr>
-<td rowspan="2"><p id="p1">4.</p></td>
+<td rowspan="2"><p id="p1">3.</p></td>
 <td><p id="p1">Services-&gt; PSTN & Routing-&gt; Numbers-&gt; Add numbers</p></td>
 </tr>
 <tr>
-<td><p id="p2">Each location needs 10 numbers</p>
+<td><p id="p2">The location needs 10 numbers</p>
 <p>Order and add Numbers</p>
 <ul>
 <li><p>Location: HQ</p></li>
@@ -154,7 +132,7 @@ address</p></li>
 <li><p>Click on the pending order to automatically change the status to
 provisioned</p></li>
 </ul>
-<p>Repeat steps for Factory location</p>
+
 <a text-align="right" href="https://help.webex.com/en-us/article/nousk9ab/Get-Started-with-the-Cisco-Calling-Plans#task_8A6009CE34ECC3CC096B67F8335D8F5B" target="_blank"><p id="p5">Webex Help Article</p></a>
 </td>
 </tr>
@@ -163,19 +141,19 @@ provisioned</p></li>
 
 
 <tr>
-<td rowspan="2"><p id="p1">5.</p></td>
+<td rowspan="2"><p id="p1">4.</p></td>
 <td><p id="p1">Management-&gt; Locations-&gt; Select location -&gt; PSTN-&gt; PSTN Configuration-&gt; Main number</p></td>
 </tr>
 <tr>
-<td><p id="p2">To make and receive calls each location needs a main number. Each
+<td><p id="p2">To make and receive calls the location needs a main number. The
 location must present their own main number as their caller id.</p>
-<p>Assign a main number to HQ and Factory locations</p>
+<p>Assign a main number to HQ</p>
 <ul>
 <li><p>Select any of the available numbers</p></li>
 
 </ul>
-<p>You will need to know your locations main number in a subsequent lab; make a
-note of which ones you use.</p>
+<p>You will need to know your  main number in a subsequent lab; make a
+note of the number.</p>
 
 <a text-align="right" href="https://help.webex.com/en-us/article/njvdjf2/Configure-Webex-Calling-for-your-organization#id_118602" target="_blank"><p id="p5">Webex Help Article</p></a>
 
@@ -184,50 +162,34 @@ note of which ones you use.</p>
 
 
 
-<tr>
-<td rowspan="2"><p id="p1">6.</p></td>
-<td><p id="p1">Management-&gt; Locations-&gt; Select location -&gt; Calling-&gt;
-Dialing-&gt; Internal dialing</p></td>
-</tr>
-<tr>
-<td><p id="p2">All location extensions are mirror images of each other.</p>
-<p>Add a routing prefix for each location</p>
-<ul>
-<li><p>HQ: 81</p></li>
-<li><p>Factory: 82</p></li>
-</ul>
-<a text-align="right" href="https://help.webex.com/en-us/article/pxtu15/Configure-your-Webex-Calling-dial-plan" target="_blank"><p id="p5">Webex Help Article</p></a>
 
-</td>
-</tr>
 <tr>
-<td rowspan="2"><p id="p1">7.</p></td>
+<td rowspan="2"><p id="p1">5.</p></td>
 <td><p id="p1">Management-&gt; Locations-&gt; Select location -&gt; Calling-&gt;
 Calling features settings-&gt; Voice portal</p></td>
 </tr>
 <tr>
-<td><p id="p2">All locations need voicemail.</p>
-<p>Configure the voice portal for each location</p>
+<td><p id="p2">HQ needs voicemail.</p>
+<p>Configure the voice portal</p>
 <ul>
 <li><p>Incoming Call:Extension 200</p></li>
 <li><p>Voice Portal Admin Passcode: 137041</p></li>
 <li><p>Language: English</p></li>
 </ul>
-<p>Repeat steps for Factory location</p>
 
 <a text-align="right" href="https://help.webex.com/en-us/article/nojp8ej/Configure-voice-portals-for-Webex-Calling-in-Control-Hub" target="_blank"><p id="p5">Webex Help Article</p></a>
 
 </td>
 </tr>
 <tr>
-<td rowspan="2"><p id="p1">8.</p></td>
+<td rowspan="2"><p id="p1">6.</p></td>
 <td><p id="p1">Management-&gt; Locations-&gt; Select location -&gt; Calling-&gt;
 Calling features settings-&gt; Schedules</p></td>
 </tr>
 <tr>
-<td><p id="p2">Calls coming into the main numbers need to route to specific
+<td><p id="p2">Calls coming into the main number need to route to specific
 options based on the time of day.</p>
-<p>Create a schedule for HQ and Factory locations</p>
+<p>Create a schedule for HQ</p>
 <ul>
 <li><p>Name: Open Hours</p></li>
 <li><p>Schedule Type: Business Hours</p></li>

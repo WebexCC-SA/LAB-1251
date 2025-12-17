@@ -45,11 +45,11 @@
 
 # Lab 3 - Users
 
-In this lab, you will learn how to create users, assign licenses, and assign extensions to users manually and in bulk.
+In this lab, you will learn how to assign licenses, and assign extensions to users manually and in bulk.
 
 - Paw Pet Supply Solutions desire their telephone system configured in a certain way: 
 
-    * 16 users with webex calling professional license distributed in both locations
+    * 8 users with webex calling professional license
 
 ## Login Credentials
 
@@ -97,18 +97,10 @@ In this lab, you will learn how to create users, assign licenses, and assign ext
 <td><p id="p1">Management-&gt; Users-&gt; Add users OR Add users dropdown -&gt; Manage users by CSV</p></td>
 </tr>
 <tr>
-<td><p id="p2">there are 16 employees that require extensions for calling.</p>
+<td><p id="p2">there are 8 employees that require extensions for calling.</p>
 <ul>
-<li><p>Use instructor provided <a href="https://webexcc-sa.github.io/LAB-1251/assets/AddUsersTemplate.xlsx" target="_blank">Add Users and Devices Template</a> to modify the csv template file or manually create users based on
-tables below. Keep in mind that existing users also need Webex Calling professional license as well as location and extension settings.</p>
-<ul>
-<li><p>YourFullName = Your first and last name</p></li>
-<li><p>## = Instructor provided student number</p></li>
-</ul></li>
-<li><p>Create users for each location manually and/or in bulk</p></li>
-<li><p>Assign a Webex Calling professional license and an extension
-number</p></li>
-</ul>
+<li><p>Use instructor provided <a href="https://webexcc-sa.github.io/LAB-1251/assets/AddUsersTemplate.xlsx" target="_blank">Add Users and Devices Template</a> to modify the csv template file. Keep in mind that existing users need Webex Calling professional license as well as location and extension settings.</p>
+
 <a text-align="right" href="https://help.webex.com/en-us/article/nlkiw8e/Manage-multiple-users-in-Control-Hub-with-the-CSV-template" target="_blank"><p id="p5">Webex Help Article</p></a>
 </td>
 </tr>
@@ -117,7 +109,7 @@ number</p></li>
 
 !!! note "Using the Add Users and Devices Template and import csv file"
 
-    First download the existing user list, Go to Management-&gt;Users-&gt;Add users dropdown-&gt;Manage users by CSV  and click on "Generate a new CSV" button. Under Export Status, look for Results and the Download link. In the downloaed file, remove Anita Perez row, this file will be your user csv template to import. Copy paste all existing users email addresses of the user csv file, and paste them in your [AddUsersTemplate](assets/AddUsersTemplate.xlsx) excel file. Edit "YourFullName##" to your name and student number. Copy the columns from the template, and paste them in your downloaded user file. Save with a different name, and verify the extension and format is csv. Don't modify the first row of your user csv template. Import csv file.
+    First download the existing user list, Go to Management-&gt;Users-&gt;Add users dropdown-&gt;Manage users by CSV  and click on "Generate a new CSV" button. Under Export Status, look for Results and the Download link. In the downloaed file, remove Anita Perez row, this file will be your user csv template to import. Copy paste all existing users email addresses of the user csv file, and paste them in your [AddUsersTemplate](assets/AddUsersTemplate.xlsx) excel file. Copy the columns from the template, and paste them in your downloaded user file. Save with a different name, and verify the extension and format is csv. Don't modify the first row of your user csv template. Import csv file.
 
 
 <table>
@@ -150,79 +142,22 @@ number</p></li>
 <td>Professional</td>
 </tr>
 <tr>
-<td>Sales1@YourFullName##.com</td>
-<td>105</td>
-<td>Professional</td>
-</tr>
-<tr>
-<td>Sales2@YourFullName##.com</td>
-<td>106</td>
-<td>Professional</td>
-</tr>
-<tr>
-<td>Marketing1@YourFullName##.com</td>
-<td>107</td>
-<td>Professional</td>
-</tr>
-<tr>
-<td>Marketing2@YourFullName##.com</td>
-<td>108</td>
-<td>Professional</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<colgroup>
-<col style="width: 53%" />
-<col style="width: 20%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr>
-<th style="background-color: #dddddd">Factory User Emails</th>
-<th style="background-color: #dddddd">Extensions</th>
-<th style="background-color: #dddddd">License</th>
-</tr>
-</thead>
-<tbody>
-<tr>
 <td>Ricardo Filice</td>
-<td>101</td>
+<td>105</td>
 <td>Professional</td>
 </tr>
 <tr>
 <td>Stefan Mauk</td>
-<td>102</td>
-<td>Professional</td>
-</tr>
-<tr>
-<td>Taylor Bard</td>
-<td>103</td>
-<td>Professional</td>
-</tr>
-<tr>
-<td>Rebekah Barretta</td>
-<td>104</td>
-<td>Professional</td>
-</tr>
-<tr>
-<td>ProductDev1@YourFullName##.com</td>
-<td>105</td>
-<td>Professional</td>
-</tr>
-<tr>
-<td>ProductDev2@YourFullName##.com</td>
 <td>106</td>
 <td>Professional</td>
 </tr>
 <tr>
-<td>ProductDev3@YourFullName##.com</td>
+<td>Taylor Bard</td>
 <td>107</td>
 <td>Professional</td>
 </tr>
 <tr>
-<td>ProductDev4@YourFullName##.com</td>
+<td>Rebekah Barretta</td>
 <td>108</td>
 <td>Professional</td>
 </tr>

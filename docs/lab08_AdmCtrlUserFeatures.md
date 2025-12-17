@@ -40,7 +40,7 @@
 </style>
 
 
-# Lab 9 - Admin-controlled user features
+# Lab 8 - Admin-controlled user features
 
 In this lab, you will learn to configure admin-controlled user features.
 

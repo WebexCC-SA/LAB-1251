@@ -41,7 +41,7 @@
 </style>
 
 
-# Lab 8 - Creating Call Queues
+# Lab 7 - Creating Call Queues
 
 In this lab, you will learn how to create call queues.
 

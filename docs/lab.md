@@ -31,20 +31,17 @@ for improved organizational communication.
 
 [Lab 5 – Workspaces [12](#lab-5-workspaces)](#lab-5-workspaces)
 
-[Lab 6 – Virtual and shared lines
-[14](#lab-6-virtual-and-shared-lines)](#lab-6-virtual-and-shared-lines)
+[Lab 6 – Configuring Calling features
+[15](#lab-6-configuring-calling-features)](#lab-6-configuring-calling-features)
 
-[Lab 7 – Configuring Calling features
-[15](#lab-7-configuring-calling-features)](#lab-7-configuring-calling-features)
+[Lab 7 – Creating Call Queues
+[19](#lab-7-creating-call-queues)](#lab-7-creating-call-queues)
 
-[Lab 8 – Creating Call Queues
-[19](#lab-8-creating-call-queues)](#lab-8-creating-call-queues)
+[Lab 8 – Admin-controlled user features
+[21](#lab-8-admin-controlled-user-features)](#lab-8-admin-controlled-user-features)
 
-[Lab 9 – Admin-controlled user features
-[21](#lab-9-admin-controlled-user-features)](#lab-9-admin-controlled-user-features)
-
-[Lab 10 – Configurations in User Hub
-[22](#lab-10-configurations-in-user-hub)](#lab-10-configurations-in-user-hub)
+[Lab 9 – Configurations in User Hub
+[22](#lab-9-configurations-in-user-hub)](#lab-9-configurations-in-user-hub)
 
 # Lab Guide: Getting started
 

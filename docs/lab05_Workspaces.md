@@ -48,9 +48,9 @@ In this lab, you will learn how to create workspaces, assign devices to workspac
 
 - Paw Pet Supply Solutions desire their telephone system configured in a certain way: 
 
-    * There is 4 areas that need devices:
+    * There is 3 areas that need devices:
     * 2 Share Cubicle areas that can be booked by any user, with Cisco 8865 MPP phones.
-    * One Meeting room per location, that need a Cisco Room device, and may need to install MPP phones in the future.
+    * One Meeting room that need a Cisco Room device, and may need to install MPP phones in the future.
 
 
 ## Login Credentials
@@ -81,7 +81,7 @@ In this lab, you will learn how to create workspaces, assign devices to workspac
 <td><p id="p1">Management-&gt; Workspaces-&gt; Add Workspace</p></td>
 </tr>
 <tr>
-<td><p id="p2">Paw Pet Supply Solutions has 4 shared use areas in which they need to hold meetings and make and receive calls</p>
+<td><p id="p2">Paw Pet Supply Solutions has 3 shared use areas in which they need to hold meetings and make and receive calls</p>
 <p>Add the workspaces with the corresponding devices and services. Devices will be added using activation code.</p>
 
 
@@ -136,16 +136,6 @@ In this lab, you will learn how to create workspaces, assign devices to workspac
 <td>300</td>
 </tr>
 
-<tr>
-</tr>
-<tr>
-<td>Conference Room2</td>
-<td>Meeting Room</td>
-<td>Factory</td>
-<td>Cisco Room and Desk device</td>
-<td>Cisco Webex Calling Professional workspace</td>
-<td>300</td>
-</tr>
 <tr>
 </tr>
 </tbody>

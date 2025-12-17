@@ -48,7 +48,7 @@ In this lab, you will learn how to navigate and configure organization settings 
 - Paw Pet Supply Solutions desire their telephone system configured in a certain way: 
 
     * Control Hub Configuration easy, with a longer timeout
-    * Extensions with the XX-XXX format, with mirrored extensions
+    * Extensions with 3 digits
     * Default passcode for voicemail
     * Call Recording with Webex
 
@@ -93,11 +93,9 @@ In this lab, you will learn how to navigate and configure organization settings 
 <td><p id="p1">Services-&gt; Calling-&gt; Settings-&gt; Service-&gt; Internal dialing-&gt; Edit </p></td>
 </tr>
 <tr>
-<td><p id="p2">All location extensions are mirror images of each other</p>
+<td><p id="p2">Extensions with 3 digits</p>
 <p>Enable an internal dialing plan at the organization level</p>
 <ul>
-<li><p>Routing prefix length: 2</p></li>
-<li><p>Steering digit: 8</p></li>
 <li><p>Extension length: 3</p></li>
 </ul>
 <a text-align="right" href="https://help.webex.com/en-us/article/pxtu15/Configure-your-Webex-Calling-dial-plan" target="_blank"><p id="p5">Webex Help Article</p></a>

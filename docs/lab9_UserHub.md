@@ -41,7 +41,7 @@
 </style>
 
 
-# Lab 10 – Configurations in User Hub
+# Lab 9 – Configurations in User Hub
 
 In this lab, you will learn how users can configure calling settings in User Hub.
 

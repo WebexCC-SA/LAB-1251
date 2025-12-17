@@ -41,7 +41,7 @@
 </style>
 
 
-# Lab 7 - Configuring Calling features
+# Lab 6 - Configuring Calling features
 
 In this lab, you will learn how to create virtual extensions, call park extensions, and call park groups.
 
