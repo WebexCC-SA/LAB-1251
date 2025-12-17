@@ -1,7 +1,7 @@
 ---
 site_name: "LAB-1251: Leveling up communication: A follow-along Webex Calling lab" # This must begin with the session ID, e.g. LABXXX-1234 This is my Cisco Live Lab
 site_description: "Leveling up communication: A follow-along Webex Calling lab" # must be same as "site_name"
-site_author: Susan Parrish
+site_author: Vanesa Melendez
 copyright: Copyright &copy; 2025 Cisco
 theme:
   name: material
@@ -99,7 +99,7 @@ nav:
       - Lab 9 - User Hub: lab9_UserHub.md
       - Congratulations & Challenge: congratulations.md
 #      - Conclusion: conclusion.md
-  - Diagrams: topologies.md
+#  - Diagrams: topologies.md
  # - How to use this guide:
  #     - Setting up and using the tool:
  #       - Initial Setup: howToUse/initialSetup.md
