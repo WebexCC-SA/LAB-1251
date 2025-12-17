@@ -47,7 +47,7 @@ In this lab, you will learn how to create call queues.
 
 - Paw Pet Supply Solutions desire their telephone system configured in a certain way: 
 
-    * HQ main number routed to a Sales Queue, with welcome message, confort message and music on hold.
+    * Support number routed to a Queue, with welcome message, confort message and music on hold.
     * This number at night is routed to the After Hours Voicemail Group
     * When there is more than 15 callers inside the queue, route calls to the voicemail group
     * If all agents are not available, or unreachable send calls to Voicemail Group
@@ -79,12 +79,12 @@ In this lab, you will learn how to create call queues.
 <td><p id="p1">Services-&gt; Calling-&gt; Features-&gt; Call Queue-&gt; Add New</p></td>
 </tr>
 <tr>
-<td><p id="p2">During business hours, callers to the San Jose Support and Sales departments should be placed on hold until an agent is available.</p>
+<td><p id="p2">During business hours, callers to  Support should be placed on hold until an agent is available.</p>
 <p>Create a Call Queue</p>
 <ul>
 <li><p>Location: HQ</p></li>
-<li><p>Name: Sales Queue</p></li>
-<li><p>Phone Number: HQ Main Number (taken from Lab02)</p></li>
+<li><p>Name: Support Queue</p></li>
+<li><p>Phone Number: Choose a Number</p></li>
 <li><p>Extension: 900</p></li>
 <li><p>Number of calls in queue: 15</p></li>
 <li><p>External caller ID phone number: Location number</p></li>
@@ -117,8 +117,8 @@ In this lab, you will learn how to create call queues.
 
 <li><p>Agents:</p>
 <ul>
-<li><p>Sales1@YourFullName##.com</p></li>
-<li><p>Sales2@YourFullName##.com</p></li>
+<li><p>Stefan Mauk</p></li>
+<li><p>Taylor Bard/p></li>
 <li><p>Eric Steele</p></li>
 <li><p>Kellie Melby</p></li>
 </ul></li>
@@ -159,8 +159,6 @@ In this lab, you will learn how to create call queues.
 <li><p>Supervisor: Charles Holland</p></li>
 <li><p>Agents:</p>
 <ul>
-<li><p>Sales1@YourFullName##.com</p></li>
-<li><p>Sales2@YourFullName##.com</p></li>
 <li><p>Eric Steele</p></li>
 <li><p>Kellie Melby</p></li>
 </ul></li>

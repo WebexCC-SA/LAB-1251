@@ -47,8 +47,7 @@ In this lab, you will learn to configure admin-controlled user features.
 - Paw Pet Supply Solutions desire their telephone system configured in a certain way: 
 
     * Rebekah needs to activate the operation mode in the Product Development HG
-    * Anita monitor Eric, Kellie and Sales users.
-    * Anita when booking using Hotdesking need a number from the Factory Location
+    * Anita monitor Eric, Kellie and Stefan
 
 
 ## Login Credentials
@@ -101,8 +100,7 @@ In this lab, you will learn to configure admin-controlled user features.
 <ul>
 <li><p>Users:</p>
 <ul>
-<li><p>Sales1@YourFullName##.com</p></li>
-<li><p>Sales2@YourFullName##.com</p></li>
+<li><p>Stefan Mauk</p></li>
 <li><p>Eric Steele</p></li>
 <li><p>Kellie Melby</p></li>
 </ul></li>
@@ -112,20 +110,7 @@ In this lab, you will learn to configure admin-controlled user features.
 
 </td>
 </tr>
-<tr>
-<td rowspan="2"><p id="p1">3.</p></td>
-<td><p id="p1">Management-&gt; Users-&gt; Anita Perez-&gt; Calling-&gt; Between-user permissions -&gt; Hotdesking</p></td>
-</tr>
-<tr>
-<td><p id="p2">Anita Perez needs the Houston virtual phone number added to her Hotdesking profile to appear local to Houston clients while working at a temporary desk</p>
-<ul>
-<li><p>Add: Houston Cust Line1</p></li>
-</ul>
 
-<a text-align="right" href="https://help.webex.com/en-us/article/eb1du4/Configure-Hot-Desking-for-phones-on-Control-Hub#task-template_1106f615-5d36-4f18-84dd-d87fc68ebc81" target="_blank"><p id="p5">Webex Help Article</p></a>
-
-</td>
-</tr>
 </tbody>
 </table>
 

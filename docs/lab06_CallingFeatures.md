@@ -114,8 +114,8 @@ Add New</p></td>
 <li><p>Members:</p>
 <ul>
 <li><p>Kellie Melby</p></li>
-<li><p>Sales1@YourFullName##.com</p></li>
-<li><p>Sales2@YourFullName##.com</p></li>
+<li><p>Rebekah Barretta</p></li>
+<li><p>Anita Perez</p></li>
 </ul></li>
 <li><p>Park Destinations: Call Park Extensions 401, 402, 403</p>
 <ul>
@@ -141,8 +141,8 @@ when other team members in the same location are unavailable.</p>
 <li><p>Users:</p>
 <ul>
 <li><p>Kellie Melby</p></li>
-<li><p>Sales1@YourFullName##.com</p></li>
-<li><p>Sales2@YourFullName##.com</p></li>
+<li><p>Rebekah Barretta</p></li>
+<li><p>Anita Perez</p></li>
 </ul></li>
 </ul>
 
@@ -213,23 +213,14 @@ when other team members in the same location are unavailable.</p>
 <td><p id="p1">Services-&gt; Calling-&gt; Features-&gt; Hunt group-&gt; Add New</p></td>
 </tr>
 <tr>
-<td><p id="p2">During business hours, Marketing  employees need to share the incoming call volume within their groups. Create a hunt group for Marketing</p>
+<td><p id="p2">During business hours Product Development employees need to share the incoming call volume within their groups. Create a hunt group for Product Development. Rebekah Barretta needs to activate Operation mode to route calls to voicemail during events like unexpected office closures or company-wide meetings.</p>
 <ul>
 <li><p>Location: HQ</p></li>
-<li><p>Name: Marketing HG</p></li>
+<li><p>Name: ProductDev HG</p></li>
 <li><p>Extensions: 701</p></li>
 <li><p>Routing: Longest idle</p></li>
 <li><p>Routing Options: Advance when busy</p></li>
-<li><p>Assign all Marketing employees and Eric Steele</p></li>
-</ul>
-<p id="p2">During business hours Product Development employees need to share the incoming call volume within their groups. Create a hunt group for Product Development. Rebekah Barretta needs to activate Operation mode to route calls to voicemail during events like unexpected office closures or company-wide meetings.</p>
-<ul>
-<li><p>Location: Factory</p></li>
-<li><p>Name: ProductDev HG</p></li>
-<li><p>Extensions: 701</p></li>
-<li><p>Routing: Circular</p></li>
-<li><p>Routing Options: Advance when busy</p></li>
-<li><p>Assign all ProductDev employees and Rebeka Barretta</p></li>
+<li><p>Assign Rebekah Barretta, Ricardo Filice and Eric Steele</p></li>
 <li><p>Create HG</p></li>
 <li><p>Open HG and open Call Forwarding </p>
 <ul>
@@ -278,12 +269,12 @@ they are on hold for certain calls.</p>
 <td><p id="p1">Services-&gt; Calling-&gt; Features-&gt; Auto attendant-&gt; Add New</p></td>
 </tr>
 <tr>
-<td><p id="p2">Calls to the Factory main number must be answered by an automated system giving callers the options to reach their desired department with different options for business and after hours</p>
+<td><p id="p2">Calls to the main number must be answered by an automated system giving callers the options to reach their desired department with different options for business and after hours</p>
 <p>Create an auto attendant for the Factory main number</p>
 <ul>
-<li><p>Location: Factory</p></li>
+<li><p>Location: HQ</p></li>
 <li><p>Name: AA Main</p></li>
-<li><p>Phone Number: Factory Main Number (taken from Lab02)</p></li>
+<li><p>Phone Number: Main Number (taken from Lab02)</p></li>
 <li><p>Extension: 250</p></li>
 <li><p>Language: English</p></li>
 <li><p>Business Hours Schedule: Open Hours</p></li>
@@ -291,7 +282,6 @@ they are on hold for certain calls.</p>
 <li><p id="p3">Business Hours Menu</p>
 <ul>
 <li><p>Disable extension level dialing</p></li>
-<li><p>Option 1:Transfer without prompt:Extension 81-701 (Marketing HG)</p></li>
 <li><p>Option 2:Transfer without prompt: Extension 82-701 (Product Development Factory)</p></li>
 <li><p>Option 3: Repeat Menu</p></li>
 <li><p>Option 4: Transfer call to operator – Extension 81-101 (Anita Perez)</p></li>
