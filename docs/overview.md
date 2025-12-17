@@ -14,7 +14,7 @@ This guide is structured into multiple labs, each focusing on a specific aspect 
     * Download the [Login Credential file](assets/Wx1_WxC_StudentCredentials.xlsx), you will be asigned a student number
     * All users in your organization have the same password
     * Ensure correct login for each task
-    * Join [Webex Space for LAB-1251](https://eurl.io/#oT7O5ivEP)
+    * Join Meeting in time
 
 - End of each lab section marked by "STOP – END OF LAB”
 
@@ -38,11 +38,11 @@ This lab guide provides step-by-step instructions for configuring Webex Calling 
 
 
 ## Setup and Requirements
-- Locations: HQ in California, Factory in Texas
+- Locations: HQ somewhere in USA
 - Communication Platform: Webex Calling with Cisco Calling Plan as PSTN solution
-- Departments: Marketing, Sales, Product Development
-- Numbers: Main number for Sales, Auto Attendant for Marketing and Product Development
-- Business Hours: 9 am – 5 pm, voicemail after hours
+- Departments: Support, Sales, Product Development
+- Numbers: Main number directed to an Auto Attendant with access to Product Development, Support Department have their own number.
+- Business Hours: Monday to Friday 9 am – 5 pm, voicemail after hours
 - Sales Department Specifics: Call pickup, call hold for department members, company-wide announcements
 - Product Development Specifics: User-controlled voicemail routing
 - Shared Resources: Shared Cubicles at HQ, Conference rooms with Room Board devices and phones, all employees use MPP phones.

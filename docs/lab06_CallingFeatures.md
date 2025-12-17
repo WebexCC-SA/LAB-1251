@@ -53,7 +53,7 @@ In this lab, you will learn how to create virtual extensions, call park extensio
     * After Hours Voicemail Group
     * A way for Rebekah to route the calls to the Product Development department to voicemail at will
     * Marketing and Product Development departments need their own extension
-    * Factory main number routed to an IVR
+    * Main number routed to an IVR
 
 ## Login Credentials
 
@@ -260,6 +260,15 @@ they are on hold for certain calls.</p>
 <li><p>Filename: Answer Soon</p></li>
 <li><p>Message: “Your call is important to us. We will be with you shortly”</p></li>
 </ul>
+
+<ul>
+<li><p>Record</p></li>
+<li><p>Location: Organization</p></li>
+<li><p>Label: Schedule</p></li>
+<li><p>Filename: Schedule/p></li>
+<li><p>Message: “Our offices are open Monday to Friday 9 to 5”</p></li>
+</ul>
+
 <a text-align="right" href="https://help.webex.com/en-us/article/n5y120ab/Manage-announcement-repository" target="_blank"><p id="p5">Webex Help Article</p></a>
 
 </td>
@@ -282,13 +291,14 @@ they are on hold for certain calls.</p>
 <li><p id="p3">Business Hours Menu</p>
 <ul>
 <li><p>Disable extension level dialing</p></li>
-<li><p>Option 2:Transfer without prompt: Extension 82-701 (Product Development Factory)</p></li>
+<li><p>Option 1:Transfer without prompt: Extension 82-701 (Product Development Factory)</p></li>
+<li><p>Option 2: Play announcement</p></li>
 <li><p>Option 3: Repeat Menu</p></li>
 <li><p>Option 4: Transfer call to operator – Extension 81-101 (Anita Perez)</p></li>
 </ul></li>
 <li><p id="p3">After Hours Menu</p>
 <ul>
-<li><p>Option 1: Transfer call to operator – Extension 81-600 (VmailGroup)</p></ul></li>
+<li><p>Option 1: Transfer without prompt: – Extension 81-600 (VmailGroup)</p></ul></li>
 </li>
 <li><p id="p3">Business Hours Greetings</p>
 <ul>
