@@ -99,18 +99,24 @@ In this lab, you will learn how to assign licenses, and assign extensions to use
 <tr>
 <td><p id="p2">there are 8 employees that require extensions for calling.</p>
 <ul>
-<li><p>Use instructor provided <a href="https://webexcc-sa.github.io/LAB-1251/assets/AddUsersTemplate.xlsx" target="_blank">Add Users and Devices Template</a> to modify the csv template file. Keep in mind that existing users need Webex Calling professional license as well as location and extension settings.</p>
+<li><p> First download the existing user list, Go to Management-&gt;Users-&gt;Add users dropdown-&gt;Manage users by CSV  and click on "Generate a new CSV" button. Under Export Status, look for Results and the Download link. Open the downloaded file using excel, or any CSV editor that helps to visualize columns. Fill only the indicated columns, leave the rest blank. Don't modify the first row of your user csv template.  Don't modify Anita Perez, or remove row.
+</p>
 
+<ul>
+<li><p>Extension: use the table bellow</p></li>
+<li><p>Location: HQ</p></li>
+<li><p>Webex Calling VAR Professional: TRUE</p></li>
+</ul>
+</li>
+
+<li><p>Save with a different name, and verify the extension and format is csv. Import csv file.</p></li>
+
+</ul>
 <a text-align="right" href="https://help.webex.com/en-us/article/nlkiw8e/Manage-multiple-users-in-Control-Hub-with-the-CSV-template" target="_blank"><p id="p5">Webex Help Article</p></a>
 </td>
 </tr>
 </tbody>
 </table>
-
-!!! note "Using the Add Users and Devices Template and import csv file"
-
-    First download the existing user list, Go to Management-&gt;Users-&gt;Add users dropdown-&gt;Manage users by CSV  and click on "Generate a new CSV" button. Under Export Status, look for Results and the Download link. In the downloaed file, remove Anita Perez row, this file will be your user csv template to import. Copy paste all existing users email addresses of the user csv file, and paste them in your [AddUsersTemplate](assets/AddUsersTemplate.xlsx) excel file. Copy the columns from the template, and paste them in your downloaded user file. Save with a different name, and verify the extension and format is csv. Don't modify the first row of your user csv template. Import csv file.
-
 
 <table>
 <colgroup>
