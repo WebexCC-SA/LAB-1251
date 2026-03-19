@@ -11,10 +11,11 @@ This guide is structured into multiple labs, each focusing on a specific aspect 
 
     * Download [Presentation](assets/LAB-1251_WxC_LevelingUpCommunication.pdf)
     * Use specified URLs (e.g., [admin.webex.com](https://admin.webex.com)) for portals
-<!--    * Download the [Login Credential file](assets/Wx1_WxC_StudentCredentials.xlsx), you will be asigned a student number -->
     * All users in your organization have the same password
     * Ensure correct login for each task
     * Join Meeting in time
+<!--    * Download the [Login Credential file](assets/Wx1_WxC_StudentCredentials.xlsx), you will be asigned a student number -->
+
 
 - End of each lab section marked by "STOP – END OF LAB”
 
