@@ -16,10 +16,10 @@ Customer Assist Queues have additional features:
 - Login as Choland in the webex app, in a different device, like your mobile phone or a different computer you can login as Eric. Test the Agent and Supervisor Customer Assist experience. Monitor Eric as a supervisor in the webex app.
 Need help? [Webex Help Article](https://help.webex.com/en-us/article/72sb3r/Webex-Calling-Customer-Assist)
 
-## Survey
+<!-- ## Survey
 
 Please make sure to take the survey:
 
 <iframe src='https://app.sli.do/event/3PmXtTi1A1pRa4YvXXF2wd/embed/polls/02e69fe4-73ad-43df-b839-98e14c9fbd7e' width='300' height='400'></iframe>
 
-Passcode: l9ohpx
+Passcode: l9ohpx -->
